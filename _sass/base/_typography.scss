@@ -1,0 +1,99 @@
+/* ==========================================================================
+   base/_typography.scss –– Text styles
+   ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,400,700);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic);
+
+html {
+  font-family: $font-family--sans;
+  color: $color__text;
+}
+
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+  margin-bottom: 1em;
+}
+
+/**
+ * Font weight silent classes
+ **/
+%sans-serif {
+  font-family: $font-family--sans;
+}
+
+%sans-serif-thin {
+  @extend %sans-serif;
+  font-weight: 200;
+}
+
+%sans-serif-regular {
+  @extend %sans-serif;
+  font-weight: 400;
+}
+
+%sans-serif-bold {
+  @extend %sans-serif;
+  font-weight: 700;
+}
+
+%serif-display {
+  font-family: $font-family--serif;
+}
+
+%serif-display-regular {
+  @extend %serif-display;
+  font-weight: 400;
+}
+
+%serif-display-italic {
+  @extend %serif-display;
+  font-weight: 400 italic;
+}
+
+/**
+ * Type scale and mixins
+ * map each heading = charlie through hotel.
+ * Also map / set alpha - hotel to silent classes for extends.
+ * 
+ * super-duper-alpha = 16 * 8  =  128
+ * super-alpha =   16 * 6.667  =  107
+ * alpha       =   16 * 5.333  =  86
+ * bravo       =   16 * 4      =  64
+ * charlie     =   16 * 3.333  =  53
+ * delta       =   16 * 2.667  =  42
+ * echo        =   16 * 2      =  32
+ * foxtrot     =   16 * 1.667  =  26
+ * golf        =   16 * 1.333  =  21
+ * hotel       =   16 * 1      =  16
+ * */
+
+$type-scale: (
+  super-duper-alpha: 128,
+  super-alpha: 107,
+  alpha:    86,
+  bravo:    64,
+  charlie:  53,
+  delta:    42,
+  echo:     32,
+  foxtrot:  22,
+  golf:     19,
+  hotel:    16,
+  ) !default;
+$type-units: px;
+
+$type-scale--headings: (
+  h1: charlie,
+  h2: delta,
+  h3: echo,
+  h4: foxtrot,
+  h5: golf,
+  h6: hotel
+  ) !default;
+

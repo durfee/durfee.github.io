@@ -1,0 +1,17 @@
+/* ==========================================================================
+   base/_base.scss –– Base styles
+   ========================================================================== */
+@import 'vars',
+        'mixins', 
+        'reset',
+        'syntax-highlighting',
+        'typography';
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

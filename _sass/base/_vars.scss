@@ -8,13 +8,16 @@ $unit:             1.125em;
 $spacing-unit:     3 * $unit;
 
 /* Colors */
-$color__text:       #000;
 $color__grey--dark:  #222;
-$color__grey--light: #444;
+$color__grey: #444;
+$color__grey--light: #666;
+$color__grey--light-opacity: transparentize($color__grey--light, .6);
 
 $color__background: #fff;
 
-$color__overlay:      #ff122f;
+$color__text: $color__grey--dark;
+$color__text--light: $color__grey--light;
+$color__overlay: #ff122f;
 
 /* Breakpoints */
 $breakpoints: (
@@ -34,8 +37,9 @@ $bp__xl: map-get($breakpoints, xl);
 
 
 /* Font styles */
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   80%;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$font-family--sans: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family--serif: "Old Standard TT", Times, serif;
+$font-size--base: 16px;
+$font-weight--base: 400;
+$small-font-size: $font-size--base * 0.875;
 $base-line-height: $unit;

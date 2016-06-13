@@ -1,0 +1,81 @@
+/* ==========================================================================
+   _elements.scss
+   ========================================================================== */
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+ul, ol {
+  margin-left: 0;
+}
+
+li {
+  > ul,
+  > ol {
+     margin-bottom: 0;
+  }
+}
+a {
+  color: $color__overlay;
+  text-decoration: none;
+  &:visited {
+    color: darken($color__overlay, 15%);
+  }
+  &:hover {
+    color: $color__text;
+    text-decoration: underline;
+  }
+}
+blockquote {
+  color: $color__grey--light;
+  border-left: 4px solid $color__grey--dark;
+  padding-left: $unit * 2;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+  
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid $color__grey--light;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    path {
+      fill: $color__grey--light;
+    }
+  }
+}

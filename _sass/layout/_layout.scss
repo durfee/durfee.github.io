@@ -1,13 +1,11 @@
 /* ==========================================================================
-   _layout.scss –– General layout styles
+   layout/_layout.scss –– General layout styles
    ========================================================================== */
+@import 'sidebar';
 
-/**
- * Home page layout and formatting
- **/
 .c-pane--left {
   width: 66%;
-  height: 100%;
+  height: 100vh;
   display: block;
   float: left;
 
@@ -19,17 +17,7 @@
   height: 100vh;
   float: right;
   overflow-y: scroll;
-  background: red;
 }
-
-.sb__wrapper {
-  padding-left: 2 * $unit;
-  padding-right: 2 * $unit;
-}
-
-/**
- * Includes styles + formatting (header, footer)
- **/
 
 .x-header {
   position: absolute;
@@ -39,4 +27,14 @@
 
 .x-footer {
   position: relative;
+  padding: $unit $unit 0;
+
+}
+
+.x-footer__header {
+  @extend %serif-display-regular;
+}
+
+.x-footer__social--list {
+  list-style: none;
 }

@@ -1,0 +1,45 @@
+/* ==========================================================================
+   layout/_sidebar.scss –– sidebar styles
+   ========================================================================== */
+
+.sb__wrapper {
+  padding-left: $unit;
+  padding-right: $unit;
+}
+.sb__masthead {
+  padding-top: 4*$unit;
+  padding-bottom: 4*$unit;
+}
+
+.sb__masthead--title {
+  @extend %sans-serif-thin;
+  @extend %echo;
+}
+
+.sb__section--wrapper {
+  position: relative;
+  padding-top: 3*$unit;
+  max-width: 90%;
+}
+
+.sb__title--super {
+  @extend %super-duper-alpha;
+  @extend %sans-serif-bold;
+  color: $color__grey--light-opacity;
+  margin-bottom: -55px;
+}
+
+.sb__title {
+  @extend %serif-display-regular;
+  @extend %bravo;
+  padding-left: $unit/4;
+}
+
+.sb__copy {
+  padding-top: $unit/2;
+  color: $color__text--light;
+}
+
+.sb__blog--list {
+  list-style: none;
+}
