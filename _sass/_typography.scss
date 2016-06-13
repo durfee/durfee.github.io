@@ -1,0 +1,65 @@
+/* ==========================================================================
+   _typography.scss –– Text styles
+   ========================================================================== */
+   /* 
+    * 
+    *
+    * */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,400,700);
+html {
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+/**
+ * Type scale 
+ * map each heading = charlie through hotel.
+ * Also map / set alpha - hotel to silent classes for extends.
+ * 
+ * alpha    =   16  * 5.333  =  86
+ * bravo    =   16  * 4      =  64
+ * charlie  =   16  * 3.333  =  53
+ * delta    =   16  * 2.667  =  42
+ * echo     =   16  * 2      =  32
+ * foxtrot  =   16  * 1.667  =  26
+ * golf     =   16  * 1.333  =  21
+ * hotel    =   16  * 1      =  16
+ * */
+
+$type-scale: (
+  alpha:    86,
+  bravo:    64,
+  charlie:  53,
+  delta:    42,
+  echo:     32,
+  foxtrot:  22,
+  golf:     19,
+  hotel:    16,
+  ) !default;
+$type-units: px;
+
+$type-scale--headings: (
+  h1: charlie,
+  h2: delta,
+  h3: echo,
+  h4: foxtrot,
+  h5: golf,
+  h6: hotel
+  ) !default;
+
+@mixin heading-classes() {
+  @each $name, $scale in $type-scale {
+    .#{$name},
+    %#{$name} {
+      font-size: #{$scale}$type-units;
+    }
+  }
+}
+
+@mixin heading-styles() {
+  @each $h, $scale in $type-scale--headings {
+    #{$h} {
+     @extend %#{$scale};
+    }
+  }
+}

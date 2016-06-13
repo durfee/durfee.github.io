@@ -1,0 +1,28 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+/* ==========================================================================
+   screen.scss –– Primary stylesheet
+   ========================================================================== */
+/**
+  * Home to imports, charset, and site wide mixins.
+  * NOTE: If more than 5 mixins, move to separate stylesheet and import.
+ **/
+
+@import
+        "vars",
+        "reset",
+        "typography",
+        "base",
+        "layout",
+        "syntax-highlighting";
+
+@mixin media($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+@include heading-styles();
+@include heading-classes();

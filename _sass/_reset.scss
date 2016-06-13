@@ -1,0 +1,38 @@
+/* ==========================================================================
+   reset.scss –– Reset
+   ========================================================================== */
+
+/* Reset credit to Nicolas Gallager (github.com/necolas) and normalize.css  */
+
+
+/* Get rid off all innate margins and paddings. Sync box sizing model. */
+* {
+  &,
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Set display: block for all new HTML5 elements. */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+audio,
+canvas,
+video {
+  display: block;
+}

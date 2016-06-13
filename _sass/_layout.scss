@@ -1,0 +1,42 @@
+/* ==========================================================================
+   _layout.scss –– General layout styles
+   ========================================================================== */
+
+/**
+ * Home page layout and formatting
+ **/
+.c-pane--left {
+  width: 66%;
+  height: 100%;
+  display: block;
+  float: left;
+
+  background: $color__grey--light;
+}
+
+.c-pane--right {
+  width: 34%;
+  height: 100vh;
+  float: right;
+  overflow-y: scroll;
+  background: red;
+}
+
+.sb__wrapper {
+  padding-left: 2 * $unit;
+  padding-right: 2 * $unit;
+}
+
+/**
+ * Includes styles + formatting (header, footer)
+ **/
+
+.x-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.x-footer {
+  position: relative;
+}
