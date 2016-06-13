@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Primary sass file
 ---
 
 /* ==========================================================================
@@ -11,18 +11,9 @@
  **/
 
 @import
-        "vars",
-        "reset",
-        "typography",
-        "base",
-        "layout",
-        "syntax-highlighting";
+  "base/base",
+  "elements",
+  "layout/layout";
 
-@mixin media($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
-}
-
-@include heading-styles();
+@include heading-elements();
 @include heading-classes();
