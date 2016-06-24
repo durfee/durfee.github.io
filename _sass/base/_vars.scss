@@ -3,23 +3,26 @@
    _vars.scss –– Variable definitions
    ========================================================================== */
 
-/* Default units */
+// Default units
 $unit:             1.125em;
 $spacing-unit:     3 * $unit;
 
-/* Colors */
-$color__grey--dark:  #222;
-$color__grey: #444;
-$color__grey--light: #666;
-$color__grey--light-opacity: transparentize($color__grey--light, .6);
+// Colors - Base >> Modified >> Location >> Text
+$color__white: #ecf0f1;
+$color__grey--dark:  #2c3e50;
+$color__grey: #7f8c8d;
+$color__grey--light: #bdc3c7;
+$color__overlay: #e74c3c;
 
-$color__background: #fff;
+$color__grey--light-opacity: transparentize($color__grey--light, .9);
 
-$color__text: $color__grey--dark;
-$color__text--light: $color__grey--light;
-$color__overlay: #ff122f;
+$color__background: $color__white;
 
-/* Breakpoints */
+$color__text--white: $color__white;
+$color__text: #222;
+$color__text--light: #444;
+
+// Breakpoints
 $breakpoints: (
   n: 0,
   xs: 20em,
@@ -27,7 +30,7 @@ $breakpoints: (
   md: 48em,
   lg: 64em,
   xl: 78.5em
-  );
+);
 
 $bp__xs: map-get($breakpoints, xs);
 $bp__sm: map-get($breakpoints, sm);
@@ -36,10 +39,10 @@ $bp__lg: map-get($breakpoints, lg);
 $bp__xl: map-get($breakpoints, xl);
 
 
-/* Font styles */
+// Font styles
 $font-family--sans: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family--serif: "Old Standard TT", Times, serif;
-$font-size--base: 16px;
+$font-size--base: 14px;
 $font-weight--base: 400;
 $small-font-size: $font-size--base * 0.875;
 $base-line-height: $unit;

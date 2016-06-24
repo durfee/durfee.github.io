@@ -8,6 +8,7 @@
 html {
   font-family: $font-family--sans;
   color: $color__text;
+  font-size: $font-size--base;
 }
 
 p,
@@ -57,35 +58,96 @@ figure,
   font-weight: 400 italic;
 }
 
+// Icomoon font-icons - icomoon.io
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/fonts/icomoon.eot');
+    src:    url('/fonts/icomoon.eot') format('embedded-opentype'),
+            url('/fonts/icomoon.ttf') format('truetype'),
+            url('/fonts/icomoon.woff') format('woff'),
+            url('/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu{
+  color: $color__text;
+  &:before {
+    content: "\e9bd";
+  } 
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-behance2:before {
+    content: "\eaa9";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-linkedin:before {
+    content: "\eac9";
+}
+
+.glyph {
+  // width: 15em;
+  overflow: hidden;
+  float: left;
+  font-size: 32px;
+  color: $color__text;
+}
+
 /**
  * Type scale and mixins
  * map each heading = charlie through hotel.
- * Also map / set alpha - hotel to silent classes for extends.
+ * Also map / set wowza - hotel to silent classes for extends.
  * 
- * super-duper-alpha = 16 * 8  =  128
- * super-alpha =   16 * 6.667  =  107
- * alpha       =   16 * 5.333  =  86
- * bravo       =   16 * 4      =  64
- * charlie     =   16 * 3.333  =  53
- * delta       =   16 * 2.667  =  42
- * echo        =   16 * 2      =  32
- * foxtrot     =   16 * 1.667  =  26
- * golf        =   16 * 1.333  =  21
- * hotel       =   16 * 1      =  16
+ * wowza              =   14 * 15     =  210
+ * super-duper-alpha  =   14 * 8      =  112
+ * super-alpha        =   14 * 6.667  =  93
+ * alpha              =   14 * 5.333  =  75
+ * bravo              =   14 * 4      =  56
+ * charlie            =   14 * 3.333  =  47
+ * delta              =   14 * 2.667  =  37
+ * echo               =   14 * 2      =  28
+ * foxtrot            =   14 * 1.667  =  23
+ * golf               =   14 * 1.333  =  19
+ * hotel              =   14 * 1      =  14
  * */
 
 $type-scale: (
-  super-duper-alpha: 128,
-  super-alpha: 107,
-  alpha:    86,
-  bravo:    64,
-  charlie:  53,
-  delta:    42,
-  echo:     32,
-  foxtrot:  22,
+  wowza: 210,
+  super-duper-alpha: 112,
+  super-alpha: 93,
+  alpha:    75,
+  bravo:    56,
+  charlie:  47,
+  delta:    37,
+  echo:     28,
+  foxtrot:  23,
   golf:     19,
-  hotel:    16,
+  hotel:    14,
   ) !default;
+
 $type-units: px;
 
 $type-scale--headings: (

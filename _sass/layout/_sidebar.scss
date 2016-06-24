@@ -1,43 +1,67 @@
 /* ==========================================================================
-   layout/_sidebar.scss –– sidebar styles
+   layout/_sidebar.scss –– sidebar layout & styles
    ========================================================================== */
 
 .sb__wrapper {
   padding-left: $unit;
   padding-right: $unit;
 }
-.sb__masthead {
-  padding-top: 4*$unit;
-  padding-bottom: 4*$unit;
+
+.sb__masthead--wrapper {
+  text-align: center;
+
+  @include media($bp__md) {
+    padding: 4*$unit 0;
+    text-align: right;
+    width: 70%;  
+  }
 }
 
 .sb__masthead--title {
   @extend %sans-serif-thin;
   @extend %echo;
+  @extend %vertical-rhythm;
+  @include media($bp__md) {
+    padding-top: 2 * $unit;
+  }
 }
 
 .sb__section--wrapper {
   position: relative;
-  padding-top: 3*$unit;
-  max-width: 90%;
+  width: 80%;
+  margin: 0 auto;
+  @include media($bp__md) {
+    width: 70%;
+    padding-top: 5 * $unit;
+  }
+  
 }
 
 .sb__title--super {
-  @extend %super-duper-alpha;
+  @extend %wowza;
   @extend %sans-serif-bold;
-  color: $color__grey--light-opacity;
-  margin-bottom: -55px;
+  margin-bottom: -$unit / 2;
+  margin-left: -50px;
+
+  color: $color__grey--light-opacity !important;
 }
 
 .sb__title {
   @extend %serif-display-regular;
   @extend %bravo;
-  padding-left: $unit/4;
+  @extend %vertical-rhythm;
+  color: $color__overlay !important;
+  @include media($bp__md) {
+    padding-left: $unit / 2;  
+  }
 }
 
 .sb__copy {
-  padding-top: $unit/2;
-  color: $color__text--light;
+  @include media($bp__md) {
+    padding-top: $unit;
+    color: $color__text--light;
+  }
+  
 }
 
 .sb__blog--list {

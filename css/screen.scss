@@ -7,13 +7,13 @@
    ========================================================================== */
 /**
   * Home to imports, charset, and site wide mixins.
-  * NOTE: If more than 5 mixins, move to separate stylesheet and import.
  **/
 
 @import
   "base/base",
   "elements",
-  "layout/layout";
+  "layout/layout",
+  "modules";
 
 @include heading-elements();
 @include heading-classes();
