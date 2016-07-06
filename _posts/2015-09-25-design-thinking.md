@@ -1,5 +1,5 @@
 ---
-layout: 4-blog
+layout: 4-post
 category: writing
 name: HOW I IMPROVED MY DESIGN THINKING IN 5 EASY STEPS
 date: 2015-09-25

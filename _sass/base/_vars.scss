@@ -1,10 +1,10 @@
 
-/* ==========================================================================
-   _vars.scss –– Variable definitions
-   ========================================================================== */
+// ==========================================================================
+// _vars.scss –– Variable definitions
+// ==========================================================================
 
 // Default units
-$unit:             1.125em;
+$unit:             1.5em;
 $spacing-unit:     3 * $unit;
 
 // Colors - Base >> Modified >> Location >> Text
@@ -13,6 +13,7 @@ $color__grey--dark:  #2c3e50;
 $color__grey: #7f8c8d;
 $color__grey--light: #bdc3c7;
 $color__overlay: #e74c3c;
+
 
 $color__grey--light-opacity: transparentize($color__grey--light, .9);
 
@@ -40,9 +41,10 @@ $bp__xl: map-get($breakpoints, xl);
 
 
 // Font styles
-$font-family--sans: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family--serif: "Old Standard TT", Times, serif;
-$font-size--base: 14px;
+$font-family--sans: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--display: 'Old Standard TT', Times New Roman, serif;
+$font-family--serif: 'Alegreya', Georgia, serif;
+$font-size--base: 16px;
 $font-weight--base: 400;
 $small-font-size: $font-size--base * 0.875;
 $base-line-height: $unit;

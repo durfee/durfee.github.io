@@ -1,14 +1,27 @@
-/* ==========================================================================
-   base/_typography.scss –– Text styles
-   ========================================================================== */
+// ==========================================================================
+// base/_typography.scss –– Text styles
+// ========================================================================== */
 
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,400,700);
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic);
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:200,400,700';
+@import 'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic';
+@import 'https://fonts.googleapis.com/css?family=Alegreya:400,400i';
 
 html {
   font-family: $font-family--sans;
   color: $color__text;
   font-size: $font-size--base;
+
+  @include media($bp__md) {
+    font-size: 1.1 * $font-size--base;
+  }
+
+  @include media($bp__lg) {
+    font-size: 1.2 * $font-size--base;
+  }
+
+  @include media($bp__xl) {
+    font-size: 1.3 * $font-size--base;
+  }
 }
 
 p,
@@ -16,10 +29,23 @@ blockquote,
 pre,
 ul,
 ol,
+li,
 dl,
 figure,
 %vertical-rhythm {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+}
+
+p,
+li,
+span {
+  font-family: $font-family--serif;
+}
+
+.sc {
+  font-variant: small-caps;
+  top: 0;
+  font-style: 0.925em;
 }
 
 /**
@@ -44,8 +70,17 @@ figure,
   font-weight: 700;
 }
 
-%serif-display {
+%body-serif {
   font-family: $font-family--serif;
+}
+
+%body-serif-italic {
+  @extend %body-serif;
+  font-style: italic;
+}
+
+%serif-display {
+  font-family: $font-family--display;
 }
 
 %serif-display-regular {
@@ -55,7 +90,8 @@ figure,
 
 %serif-display-italic {
   @extend %serif-display;
-  font-weight: 400 italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
 // Icomoon font-icons - icomoon.io
@@ -109,11 +145,13 @@ i {
 }
 
 .glyph {
-  // width: 15em;
   overflow: hidden;
-  float: left;
-  font-size: 32px;
-  color: $color__text;
+  font-size: 24px;
+  color: $color__text--light;
+  transition: 0.15s ease-in-out;
+  &:hover {
+    color: $color__overlay;
+  }
 }
 
 /**
@@ -121,31 +159,31 @@ i {
  * map each heading = charlie through hotel.
  * Also map / set wowza - hotel to silent classes for extends.
  * 
- * wowza              =   14 * 15     =  210
- * super-duper-alpha  =   14 * 8      =  112
- * super-alpha        =   14 * 6.667  =  93
- * alpha              =   14 * 5.333  =  75
- * bravo              =   14 * 4      =  56
- * charlie            =   14 * 3.333  =  47
- * delta              =   14 * 2.667  =  37
- * echo               =   14 * 2      =  28
- * foxtrot            =   14 * 1.667  =  23
- * golf               =   14 * 1.333  =  19
- * hotel              =   14 * 1      =  14
+ * wowza              =   16 * 15     =  240
+ * super-duper-alpha  =   16 * 8      =  124
+ * super-alpha        =   16 * 6.667  =  106.67
+ * alpha              =   16 * 5.333  =  85.33
+ * bravo              =   16 * 4      =  64
+ * charlie            =   16 * 3.333  =  53.33
+ * delta              =   16 * 2.667  =  42.67
+ * echo               =   16 * 2      =  32
+ * foxtrot            =   16 * 1.667  =  26.67
+ * golf               =   16 * 1.333  =  21.33
+ * hotel              =   16 * 1      =  16
  * */
 
 $type-scale: (
-  wowza: 210,
-  super-duper-alpha: 112,
-  super-alpha: 93,
-  alpha:    75,
-  bravo:    56,
-  charlie:  47,
-  delta:    37,
-  echo:     28,
-  foxtrot:  23,
-  golf:     19,
-  hotel:    14,
+  wowza: 240,
+  super-duper-alpha: 124,
+  super-alpha: 107,
+  alpha:    85,
+  bravo:    64,
+  charlie:  53,
+  delta:    43,
+  echo:     32,
+  foxtrot:  27,
+  golf:     21.33,
+  hotel:    16,
   ) !default;
 
 $type-units: px;

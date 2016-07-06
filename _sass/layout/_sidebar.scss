@@ -5,65 +5,67 @@
 .sb__wrapper {
   padding-left: $unit;
   padding-right: $unit;
+  // overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sb__masthead--wrapper {
-  text-align: center;
-
+  text-align: left;
   @include media($bp__md) {
-    padding: 4*$unit 0;
-    text-align: right;
-    width: 70%;  
+    padding: 2 * $unit 0 0;
   }
+}
+
+.sb__logo {
+  @include flex-column(2em);
+  height: 2em;
+  @include media($bp__md) {
+    @include flex-column(3em);
+    height: 3em;
+    margin-left: -3em;
+    padding-right: 0.2em;
+  }  
 }
 
 .sb__masthead--title {
   @extend %sans-serif-thin;
-  @extend %echo;
+  @extend %delta;
   @extend %vertical-rhythm;
-  @include media($bp__md) {
-    padding-top: 2 * $unit;
-  }
+  padding: $unit 0 0;
+  color: $color__overlay;
+
 }
 
 .sb__section--wrapper {
   position: relative;
-  width: 80%;
-  margin: 0 auto;
-  @include media($bp__md) {
-    width: 70%;
-    padding-top: 5 * $unit;
-  }
-  
-}
-
-.sb__title--super {
-  @extend %wowza;
-  @extend %sans-serif-bold;
-  margin-bottom: -$unit / 2;
-  margin-left: -50px;
-
-  color: $color__grey--light-opacity !important;
 }
 
 .sb__title {
-  @extend %serif-display-regular;
-  @extend %bravo;
-  @extend %vertical-rhythm;
+  @extend %sans-serif-thin;
+  @extend %echo;
   color: $color__overlay !important;
-  @include media($bp__md) {
-    padding-left: $unit / 2;  
-  }
 }
 
 .sb__copy {
+  max-width: 35rem;
   @include media($bp__md) {
     padding-top: $unit;
     color: $color__text--light;
   }
-  
 }
 
 .sb__blog--list {
   list-style: none;
+  .sb__blog--item-title {
+    color: $color__overlay;
+  }
+}
+
+.sb__blog--item-date {
+  margin-left: 20px;
+}
+
+.sb__blog--item-title {
+  @extend %serif-display-italic;
 }

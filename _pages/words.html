@@ -1,0 +1,12 @@
+---
+layout: 5-grid
+permalink: /words/
+title: Words
+---
+<div class="c-posts--grid">
+  {% for post in site.posts %}  
+    <a href="{{ post.permalink }}" class="c-posts--grid__item post--grid">
+      <h5>{{ post.date | date: '%Y, %B' }} | {{ post.name }}</h5>
+    </a>
+  {% endfor %}
+</div>

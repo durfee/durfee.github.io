@@ -1,5 +1,5 @@
 ---
-layout: 4-blog
+layout: 4-post
 category: writing
 name: Love Loss & Business Plans- 5 Phases of Starting up in Your Twenties
 permalink: /entrepreneurship/

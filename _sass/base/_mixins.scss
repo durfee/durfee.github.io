@@ -10,8 +10,8 @@
 }
 
 // Include any omni-heading styles here.
-@mixin heading-styles() {  
-  color: $color__grey--dark;
+@mixin heading-styles() {
+  @extend %sans-serif-thin;
   line-height: 1; /* Eliminate whitespace for split headers. */
 }
 // Hard and silent classes for all headings.

@@ -5,7 +5,7 @@
 /* Reset credit to Nicolas Gallager (github.com/necolas) and normalize.css  */
 
 
-/* Get rid off all innate margins and paddings. Sync box sizing model. */
+/* Get rid of all default margins and paddings. Sync box sizing model. */
 * {
   &,
   &:before,
@@ -15,7 +15,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: 0;
   }
+}
+
+:focus {
+  outline: 0;
 }
 
 /* Set display: block for all new HTML5 elements. */

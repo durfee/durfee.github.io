@@ -1,70 +1,83 @@
-/* ==========================================================================
-   layout/_layout.scss –– General layout styles
-   ========================================================================== */
+// ==========================================================================
+// layout/_layout.scss –– General layout styles
+// ==========================================================================
+@import 'flexgrid';
 @import 'sidebar';
+@import 'project';
 
-.c-pane--left {
-  display: none;
 
-  @include media($bp__md) {
-    display: block;
-    height: 100vh;
-    width: 50%;
-    overflow-y: scroll;
-    float: left;
-    background: $color__grey--dark;
-  }
-
-  @include media($bp__lg) {
-    width: 66%;
+.c-home {
+  @include media ($bp__md) {
+    max-width: 40rem;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: baseline;
   }
 }
 
-.c-pane--right {
+.c-pane--primary {
+  @include flex-column(100%);
+  order: 0;
   @include media($bp__md) {
-    float: right;
-    height: 100vh;
-    width: 50%;
-    overflow-y: scroll;
-  }
-
-  @include media($bp__lg) {
-    width: 34%;
+    order: 1;
   }
 }
 
 // Header
 
 .x-header {
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-.menu--icon {
-  display: inline-block;
-  margin: 1em 0 0 1em;
-  float: left;
-  color: $color__text !important;
-}
-
-.menu--icon__text {
-  padding-top: 0.5em;
-  padding-left: 0.5em;
-  display: inline-block;
-}
-
-// Footer
-
-.x-footer {
-  padding: $unit $unit 0;
+  display: block;
   position: relative;
+  width: 100vw;
+  background-color: white;
+
+  @include media($bp__md) {
+    position: fixed;
+    float: right;
+    width: 7.5em;
+    height: auto;
+    right: 0;
+    top: 25%;  
+  }
 }
 
-.x-footer__header {
-  @extend %serif-display-regular;
+.x-page--wrapper {
+  @include media ($bp__md) {
+    max-width: 48rem;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: baseline;
+  }
 }
 
-.x-footer__social--list {
-  list-style: none;
+.x-page--content {
+  @include flex-column(80%);
+  order: 0;
+
+  @include media($bp__md) {
+    order: 1;
+  }
+}
+
+.x-page--hero {
+  .x-page--hero__copy {
+    padding: 2*$unit 0 0;
+  }
+}
+
+.c-posts--grid {
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: $unit;
+  text-align: left;
+
+  .c-posts--grid__item {
+    @include flex-column(20%);
+    padding: $unit;
+    border-bottom: 0 !important;
+    &:hover {
+      border-bottom: 0;
+    }
+  }
 }

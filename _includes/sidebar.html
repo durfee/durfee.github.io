@@ -1,28 +1,25 @@
-<div class="sb__wrapper">
-  <div class="sb__masthead--wrapper">
-    <div class="x-logo sb__logo"></div>
-    <h1 class="sb__masthead--title">Sean<br>Durfee</h1>
-    <h1 class="sb__masthead--title">Designer</h1>
+<div class="sb__wrapper start">
+  <div class="sb__masthead--wrapper start middle flex-row">
+    <!-- <img class="x-logo center sb__logo" src="{{ "/assets/logo.svg" | prepend: site.baseurl }}" alt="My logo. It says SD."> -->
+    <h1 class="sb__masthead--title">Sean Durfee</h1>
   </div>
   <div class="sb__section--wrapper">
-    <h1 class="h1 sb__title--super">/Ab</h1>
     <h1 class="sb__title">About</h1>
-    <p class="sb__copy">
-    I'm Sean! I'm a Vancouver based multi-disciplinary designer with a degree in International Relations. I do product design, branding, web design, photography, and video. I am presently freelancing for <a href="frindsmade.ca">Friends Made</a>, building community content for <a href="startup604.com">#Startup604</a>, and doing product design for <a href="chilly.tech">Chilly Technologies</a> while looking for a stable job.
-    </p>
+    <p class="sb__copy">I'm Sean Durfee (dur•fee), a Vancouver, BC based multi-disciplinary designer. I hold a degree in International Relations with a focus in international security, East Asia, trade and languages (English, French & Italian with mild proficiency in Mandarin and Spanish). I'm a generalist designer that works across many disciplines. I have experience with project management, product design, branding, web design, photography, and a dash of video.</p>
+    <p class="sb__copy">I'm in between gigs right now so you can <a href="mailto:sean@durfee.me">hire me</a>! (Pleeez). On the side, I build community content for <a href="http://startup604.com">#Startup604</a> and lead product design for my company, <a href="http://chilly.tech">Chilly Technologies</a>.</p>
+    <p class="sb__copy">Past clients include: <a href="http://annikaep.com">TRIBE</a>, <a href="http://theenvoy.ca/">The Envoy</a>, <a href="http://frindsmade.ca">Friends Made</a>, <a href="http://www.ionajournal.ca/">Iona Journal of Economics</a>, <a href="http://liu.arts.ubc.ca/">The University of British Columbia</a>, <a href="http://commissaryconnect.com/">Commissary Connect</a>, <a href="https://www.linkedin.com/company/tars-technology-inc-">TARS Technology</a>, <a href="https://blogs.ubc.ca/irsa/">UBC's IRSA</a>, and more.</p>
+    <p class="sb__copy">I like people. We'd probably get along. You can find me on the internet on <a href="http://twitter.com/durfeee">Twitter</a>, <a href="https://github.com/durfee">Github</a>, <a href="http://instagram.com/durfee">Instagram</a>, <a href="https://play.spotify.com/user/durfee">Spotify</a>, and <a href="https://www.behance.net/durfeeseanf32d">Behance</a>. Or send me an <a href="mailto:sean@durfee.me">email</a>.</p>
   </div>
   <div class="sb__section--wrapper">
-    <h1 class="sb__title--super">/Wr</h1>
     <h1 class="sb__title">Writing</h1>
-    <p class="sb__copy">I sometimes write things (this doesn't happen very often). When it does, links are posted here.</p>
+    <p class="sb__copy">I sometimes write things.</p>
     <ul class="sb__blog--list">
-      <li class="sb__blog--item"></li>
-      <li class="sb__blog--item"></li>
+    {% for post in site.posts %} 
+      <a href="{{ post.url }}">
+        <li class="sb__blog--item">
+        <span class="sb__blog--item-date">{{ post.date | date: '%Y, %B' }}</span> — <span class="sb__blog--item-title">{{ post.title }}</span></li>
+      </a>
+      {% endfor %}
     </ul>
-  </div>
-  <div class="sb__section--wrapper">
-    <h1 class="sb__title--super">/Co</h1>
-    <h1 class="sb__title">Contact</h1>
-    <p class="sb__copy">Want to chat? Hire me? Just say hi? Drop me a line!</p>
   </div>
 </div>

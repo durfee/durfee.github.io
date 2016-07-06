@@ -1,0 +1,26 @@
+---
+layout: 0-default
+---
+  <div class="project article {{ page.class }} flex-row">
+    <article class="full-width">
+      <div class="section article--hero center flex-row" style="background-image: url({{ page.image }})">
+        <div class="article--copy">
+          <h5 class="sc">{{ page.project-date }}</h5>
+          <hr>
+          <h3 class="article-title">{{ page.name }}</h3>
+          <h4 class="sc">{{ page.type }}</h4>
+          <hr>
+          <h5 class="sc">{{ page.summary }}</h5>
+        </div>
+        <!-- <img src="{{ "/assets/logo.svg" | prepend: site.baseurl }}" alt="My logo. It says SD." class="article-logo"> -->
+      </div>
+<!--       <div class="article--meta">
+        <div class="article--meta__item">Project type: {{ page.type }}</div>
+        <div class="article--meta__item">Project dates: {{ page.project-date }}</div>
+      </div> -->
+      <div class="article--content">
+        {{ content }}
+      </div>
+    </article>
+    {% include footer.html %}
+  </div>
