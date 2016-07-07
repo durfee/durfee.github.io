@@ -8,14 +8,25 @@ img {
 }
 
 figure {
-  margin: 2em 0;
+  margin: 2em auto;
   > img {
+    display: block;
+  }
+  > figcaption {
     display: block;
   }
 }
 
+.limit {
+  width: 15rem;
+  max-width: 15rem;
+  margin: 1rem auto;
+}
+
 figcaption {
-  font-size: $small-font-size;
+  padding-top: 0.3 * $unit;
+  padding-left: 0.3 * $unit;
+  padding-bottom: 0.7 * $unit;
 }
 
 ul, ol {
@@ -93,29 +104,30 @@ hr {
   height: 1px;
   text-align: center;
   border-color: $color__grey--light;
+  
 }
 
 %hr-fat-short,
-  .hr-fat-short {
-    border-width: 1em;
-    
-  }
+.hr-fat-short {
+  border: 0.3*$unit solid;
+  width: 10 * $unit;
+}
 
-  %hr-dotted,
-  .hr-dotted {
-    border-width: 0;
-    border-style: dotted;
-    margin: 2rem 0rem 3rem 3rem;
-    &:after {
-      content: "...";
-      letter-spacing: 2*$unit;
-    }
+%hr-dotted,
+.hr-dotted {
+  border-width: 0;
+  border-style: dotted;
+  margin: 2rem 0rem 3rem 3rem;
+  &:after {
+    content: "...";
+    letter-spacing: 2*$unit;
   }
+}
 
-  %hr-full-width,
-  .hr-full-width {
-    
-  }
+%hr-full-width,
+.hr-full-width {
+  
+}
 
 .btn {
   @extend %sans-serif-thin;

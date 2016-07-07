@@ -21,6 +21,7 @@ collections:
     permalink: /projects/:path/
   photos:
     output: true
+    permalink: /pictures/:path/
   videos:
     output: true
 
