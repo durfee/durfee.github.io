@@ -1,12 +1,15 @@
 ---
+title: Hustle Coffee
+date: 2016-06-17 00:00:00 Z
+permalink: "/hustle-coffee"
 layout: 2-project
 name: Hustle Coffee
 class: hustle
 type: Side Project
 project-date: Fall 2015
-permalink: /hustle-coffee
 summary: A retrospective on my old coffee subscription business.
 ---
+
 The idea for Hustle Coffee started as a hope to make coffee more accessible for everyone. We envisioned people wanted to take the smoke and mirrors out of coffee and learn more about making good coffee at home.
 
 * * *

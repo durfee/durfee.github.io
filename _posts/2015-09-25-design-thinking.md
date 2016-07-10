@@ -1,10 +1,13 @@
 ---
+title: Design Thinking
+date: 2015-09-25 00:00:00 Z
+permalink: "/design-thinking/"
+categories:
+- writing
 layout: 4-post
-category: writing
 name: HOW I IMPROVED MY DESIGN THINKING IN 5 EASY STEPS
-date: 2015-09-25
-permalink: /design-thinking/
 ---
+
 # ∆ Thinking
 
 Design thinking is not something that easily comes to people, myself included. My own little adventure in design has by no means been extensive or trying. In fact, I have absolutely no basis for being able to talk about this, but hey it’s a learning process. So maybe by writing about how my process has come together and how I can further critique it means that maybe I can help others get on their own track faster? We’ll see.
