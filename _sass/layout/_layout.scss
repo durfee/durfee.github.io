@@ -28,7 +28,6 @@
 .x-header {
   display: block;
   position: relative;
-  width: 100vw;
   background-color: white;
 
   @include media($bp__md) {
@@ -41,6 +40,22 @@
   }
 }
 
+// Footer
+.x-footer {
+  display: block;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 2rem;
+  .footer-copy {
+    text-align: center;
+  }
+  .parrot {
+    width: 1.25rem;
+  }
+}
+
+// Page content
 .x-page--wrapper {
   @include media ($bp__md) {
     max-width: 48rem;
@@ -65,10 +80,9 @@
   }
 }
 
+// Grids
 .c-posts--grid {
   flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: space-around;
   padding: $unit;
   text-align: left;
 
@@ -79,5 +93,9 @@
     &:hover {
       border-bottom: 0;
     }
+  }
+  .c-posts--grid__image {
+    @include flex-column(47.5%);
+    margin: $unit/5;
   }
 }

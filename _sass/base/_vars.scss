@@ -32,7 +32,7 @@ $breakpoints: (
   lg: 64em,
   xl: 78.5em
 );
-
+$bp__nil: map-get($breakpoints, n);
 $bp__xs: map-get($breakpoints, xs);
 $bp__sm: map-get($breakpoints, sm);
 $bp__md: map-get($breakpoints, md);

@@ -1,17 +1,18 @@
 ---
+title: Entrepreneurship
+date: 2015-12-14 00:00:00 Z
+permalink: "/entrepreneurship"
+categories:
+- writing
 layout: 4-post
-category: writing
-name: Love Loss & Business Plans- 5 Phases of Starting up in Your Twenties
-permalink: /entrepreneurship/
+name: Love Loss & Business Plans
 ---
-
-# LOVE, LOSS & BUSINESS PLANS: 5 PHASES OF STARTING UP IN YOUR TWENTIES
 
 Starting a business is like starting a new relationship. The series of emotions and ideas follow identical patterns, but unlike relationships many of you are obstinately convinced that being an entrepreneur is a near impossible feat.
 
 Perhaps it’s because I’m socially inept on a level that would make introverts feel comfortable, but I passionately believe that being an innovator requires as much care as being in a relationship. You’re probably thinking, that’s all well and good, but those two things are most certainly not the same thing. Come on, get your shit together. Bear with me.
 
-## A RELATIONSHIP CAN BE BROKEN DOWN INTO FIVE PHASES
+### A relationship can be broken down into five phases
 
 1. You connect with someone on an emotional or physical level.
 
@@ -25,7 +26,7 @@ Perhaps it’s because I’m socially inept on a level that would make introvert
 
 We’ve all been there, right? And have come out on the other side with more experience, more stories, and—after some time, hopefully—a few lessons.
 
-## LET’S COMPARE THESE PHASES TO THOSE OF STARTING A BUSINESS
+### Those phases compared to starting a business
 
 1. You find an idea that you like so you flirt with it for a little while.
 
@@ -39,7 +40,7 @@ We’ve all been there, right? And have come out on the other side with more exp
 
 See? Not that different.
 
-IT SHOULD BE A LOVE AFFAIR
+> IT SHOULD BE A LOVE AFFAIR
 
 “Innovator” or “entrepreneur” are loaded titles that come with a whole slew of preconceptions and judgements. Let’s put those aside for a moment. People in committed and healthy relationships don’t receive titles or prestige, but they still care enough to make sure the relationship worked and lasted. Innovators and entrepreneurs are just people who cared enough about an idea to see it come into reality. They knew that failure was a possibility, but put themselves out there for the world to see anyways.
 
@@ -47,5 +48,5 @@ Treat your ideas with the same respect you give your partner. Know that everythi
 
 So, take a chance on that idea you were flirting with. Be courageous and embrace failure. Be daring and do your best work.
 
---- 
+* * *
 This appeared in Class Magazine on December 16, 2015 [over here](http://classmagazine.ca/2015/12/16/love-lust-business-plans-the-5-phases-of-starting-up-in-your-twenties/) and was edited by the lovely Sasha Curry of West Coast Social.
