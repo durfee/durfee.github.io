@@ -25,7 +25,7 @@ collections:
 email: sean@durfee.me
 description: |
   I'm a multi-disciplinary designer based in Vancouver, BC. I  specialize in web, UI, product design, identities, branding, and  photography. Say hi (pleez).
-baseurl: ''
+baseurl: 
 url: durfee.github.com/ps_update
 twitter_username: durfeee
 github_username: durfee
