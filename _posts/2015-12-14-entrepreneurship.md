@@ -9,7 +9,7 @@ Starting a business is like starting a new relationship. The series of emotions 
 
 Perhaps it’s because I’m socially inept on a level that would make introverts feel comfortable, but I passionately believe that being an innovator requires as much care as being in a relationship. You’re probably thinking, that’s all well and good, but those two things are most certainly not the same thing. Come on, get your shit together. Bear with me.
 
-### A RELATIONSHIP CAN BE BROKEN DOWN INTO FIVE PHASES
+### A relationship can be broken down into five phases
 
 1. You connect with someone on an emotional or physical level.
 
@@ -23,7 +23,7 @@ Perhaps it’s because I’m socially inept on a level that would make introvert
 
 We’ve all been there, right? And have come out on the other side with more experience, more stories, and—after some time, hopefully—a few lessons.
 
-### LET’S COMPARE THESE PHASES TO THOSE OF STARTING A BUSINESS
+### Those phases compared to starting a business
 
 1. You find an idea that you like so you flirt with it for a little while.
 
