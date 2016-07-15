@@ -1,8 +1,11 @@
 ---
+title: Entrepreneurship
+date: 2015-12-14 00:00:00 Z
+permalink: "/entrepreneurship"
+categories:
+- writing
 layout: 4-post
-category: writing
 name: Love Loss & Business Plans
-permalink: /entrepreneurship
 ---
 
 Starting a business is like starting a new relationship. The series of emotions and ideas follow identical patterns, but unlike relationships many of you are obstinately convinced that being an entrepreneur is a near impossible feat.

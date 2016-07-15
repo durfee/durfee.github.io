@@ -1,9 +1,12 @@
 ---
+title: Reflections
+date: 2015-12-17 00:00:00 Z
+permalink: "/reflections"
 layout: 2-project
 name: Reflections
 project-date: Fall 2015
-permalink: /reflections
 ---
+
 A reflection done at the end of the d.Studio course. Reflecting on what take-aways I learned during the semester.
 
 * * *

@@ -1,34 +1,37 @@
-# Site settings
+---
 title: Sean Durfee
-email: sean@durfee.me
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a multi-disciplinary designer based in Vancouver, BC. I 
-  specialize in web, UI, product design, identities, branding, and 
-  photography. Say hi (pleez).
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "durfee.github.com/ps_update" # the base hostname & protocol for your site
-twitter_username: durfeee
-github_username:  durfee
-
-# Build settings
-markdown: kramdown
-
+timezone: UTC
 collections:
   pages:
+    title: Pages
+    output: true
+  photos:
+    title: Photos
+    output: true
+    permalink: "/pictures/:path/"
+  posts:
+    title: Posts
     output: true
   projects:
+    title: Projects
     output: true
-    permalink: /projects/:path/
-  photos:
+    permalink: "/projects/:path/"
+  uploads:
+    title: Uploads
     output: true
-    permalink: /pictures/:path/
   videos:
+    title: Videos
     output: true
-
-# Gems
-gems: [
-  jekyll-coffeescript,
-  jekyll-watch,
-  jekyll-assets,
-  autoprefixer-rails
-  ]
+email: sean@durfee.me
+description: |
+  I'm a multi-disciplinary designer based in Vancouver, BC. I  specialize in web, UI, product design, identities, branding, and  photography. Say hi (pleez).
+baseurl: ''
+url: durfee.github.com/ps_update
+twitter_username: durfeee
+github_username: durfee
+markdown: kramdown
+gems:
+- jekyll-coffeescript
+- jekyll-watch
+- jekyll-assets
+- autoprefixer-rails
