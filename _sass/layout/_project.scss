@@ -47,19 +47,19 @@
 
   h4 {
     @extend %body-serif;
-    color: $color__text--white;
+    // color: $color__text--white;
   }
 
   h5 {
     @extend %body-serif;
-    color: $color__text--white;
+    // color: $color__text--white;
     max-width: 80%;
     margin: 0 auto;
   }
 
   hr {
     @extend %hr-dotted;
-    color: $color__text--white;
+    // color: $color__text--white;  
   }
 }
 

@@ -22,7 +22,7 @@ Perhaps it’s because I’m socially inept on a level that would make introvert
 
 4. Of course, something fails horribly. Your heart explodes.
 
-5. Post ice cream, booze, and binge watching of Friends, you pick up the pieces and the whole cycle repeats itself.
+5. After the ice cream, booze, and binge watching of Friends, you pick up the pieces and the whole cycle repeats itself.
 
 We’ve all been there, right? And have come out on the other side with more experience, more stories, and—after some time, hopefully—a few lessons.
 

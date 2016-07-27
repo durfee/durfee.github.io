@@ -206,18 +206,18 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_projects\/2016-06-17-hustle-coffee.md": {
+	"\/_posts\/2015-12-17-reflections.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016-06-17-hustle-coffee.md",
+		"inputAbbreviatedPath": "\/_posts\/2015-12-17-reflections.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_projects\/2016-06-17-hustle-coffee.html",
+		"outputAbbreviatedPath": "\/_posts\/2015-12-17-reflections.html",
 		"outputFormat": 9,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -227,27 +227,18 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_projects\/2016-06-18-commissary-connect.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016-06-18-commissary-connect.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_projects\/2016-06-18-commissary-connect.md": {
+	"\/_projects\/hustle-coffee.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016-06-18-commissary-connect.md",
+		"inputAbbreviatedPath": "\/_projects\/hustle-coffee.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_projects\/2016-06-18-commissary-connect.html",
+		"outputAbbreviatedPath": "\/_projects\/hustle-coffee.html",
 		"outputFormat": 9,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -519,17 +510,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/CC background test 1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 451437,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/CC background test 1.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/CC background test 1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/images\/cc-test.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -570,11 +550,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/entrepreneurship\/index.html": {
+	"\/_site\/entrepreneurship.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/entrepreneurship\/index.html",
+		"inputAbbreviatedPath": "\/_site\/entrepreneurship.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -597,15 +577,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/pages\/pictures.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/pages\/pictures.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/pages\/videos.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -615,11 +586,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/projects\/2016-06-18-commissary-connect\/index.html": {
+	"\/_site\/pictures\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/projects\/2016-06-18-commissary-connect\/index.html",
+		"inputAbbreviatedPath": "\/_site\/pictures\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -629,6 +600,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/reflections.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/reflections.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -660,17 +640,6 @@
 		"initialSize": 3769,
 		"inputAbbreviatedPath": "\/assets\/favicon.png",
 		"outputAbbreviatedPath": "\/assets\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/cc-test.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 451437,
-		"inputAbbreviatedPath": "\/assets\/images\/cc-test.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/cc-test.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
