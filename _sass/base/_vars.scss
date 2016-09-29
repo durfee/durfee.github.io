@@ -8,20 +8,20 @@ $unit:             1.5em;
 $spacing-unit:     3 * $unit;
 
 // Colors - Base >> Modified >> Location >> Text
-$color__white: #ecf0f1;
-$color__grey--dark:  #2c3e50;
-$color__grey: #7f8c8d;
-$color__grey--light: #bdc3c7;
-$color__overlay: #e74c3c;
+$color-white: #ecf0f1;
+$color-grey--dark:  #2c3e50;
+$color-grey: #7f8c8d;
+$color-grey--light: #bdc3c7;
+$color-primary: #e74c3c;
 
 
-$color__grey--light-opacity: transparentize($color__grey--light, .9);
+$color-grey--light-opacity: transparentize($color-grey--light, .9);
 
-$color__background: $color__white;
+$color-background: $color-white;
 
-$color__text--white: $color__white;
-$color__text: #222;
-$color__text--light: #444;
+$color-text--white: $color-white;
+$color-text: #222;
+$color-text--light: #444;
 
 // Breakpoints
 $breakpoints: (
@@ -32,17 +32,17 @@ $breakpoints: (
   lg: 64em,
   xl: 78.5em
 );
-$bp__nil: map-get($breakpoints, n);
-$bp__xs: map-get($breakpoints, xs);
-$bp__sm: map-get($breakpoints, sm);
-$bp__md: map-get($breakpoints, md);
-$bp__lg: map-get($breakpoints, lg);
-$bp__xl: map-get($breakpoints, xl);
+$breaks-at-nil: map-get($breakpoints, n);
+$breaks-at-xs: map-get($breakpoints, xs);
+$breaks-at-sm: map-get($breakpoints, sm);
+$breaks-at-md: map-get($breakpoints, md);
+$breaks-at-lg: map-get($breakpoints, lg);
+$breaks-at-xl: map-get($breakpoints, xl);
 
 
 // Font styles
-$font-family--sans: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family--display: 'Old Standard TT', Times New Roman, serif;
+$font-family--sans: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+$font-family--display: 'Old Standard TT', 'Times New Roman', serif;
 $font-family--serif: 'Alegreya', Georgia, serif;
 $font-size--base: 16px;
 $font-weight--base: 400;

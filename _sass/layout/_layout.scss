@@ -7,7 +7,7 @@
 
 
 .c-home {
-  @include media ($bp__md) {
+  @include media ($breaks-at-md) {
     max-width: 40rem;
     margin: 0 auto;
     justify-content: space-around;
@@ -18,19 +18,19 @@
 .c-pane--primary {
   @include flex-column(100%);
   order: 0;
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     order: 1;
   }
 }
 
 // Header
 
-.x-header {
+.o-header {
   display: block;
   position: relative;
   background-color: white;
 
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     position: fixed;
     float: right;
     width: 7.5em;
@@ -41,15 +41,15 @@
 }
 
 // Footer
-.x-footer {
+.o-footer {
   display: block;
-  position: relative;
-  bottom: 0;
+  position: absolute;
   width: 100vw;
-  padding-bottom: 2rem;
+
   .footer-copy {
     text-align: center;
   }
+  
   .parrot {
     width: 1.25rem;
   }
@@ -57,7 +57,7 @@
 
 // Page content
 .x-page--wrapper {
-  @include media ($bp__md) {
+  @include media ($breaks-at-md) {
     max-width: 48rem;
     margin: 0 auto;
     justify-content: space-around;
@@ -69,7 +69,7 @@
   @include flex-column(80%);
   order: 0;
 
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     order: 1;
   }
 }

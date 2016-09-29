@@ -2,58 +2,56 @@
    /modules/_project-hero.scss –– project hero styles
    ========================================================================== */
 
-.project--hero {
+.c-project--hero {
   height: 100vh;
   width: 100%;
-}
-
-.project--hero {
-  .project--hero__name,
-  .project--hero__category,
-  .project--hero__date,
-  .project--hero__cta a {
+  
+  .c-project--hero__name,
+  .c-project--hero__category,
+  .c-project--hero__date,
+  .c-project--hero__cta a {
     @extend %vertical-rhythm;
-    color: $color__text !important;
+    color: $color-text !important;
   }
 
-  .project--hero__name {
+  .c-project--hero__name {
     @extend %sans-serif-thin;
   }
 
-  .project--hero__category {
+  .c-project--hero__category {
     @extend %serif-display-regular;
     @extend %bravo;
   }
 
-  .project--hero__date {
+  .c-project--hero__date {
     @extend %sans-serif-thin;
     @extend %golf;
   }
 }
 
-.project--hero__copy {
+.c-project--hero__copy {
   width: 50%;
   height: 75vh;
   margin: 0 auto;
 
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     padding-top: 2.5 * $unit;
   }
 
-  @include media($bp_-lg) {
+  @include media($breaks-at-lg) {
     padding-top: 5 * $unit;
   }
 }
 
-.project--hero__cta {
+.c-project--hero__cta {
   width: 100%;
   height: 25vh;
   text-align: center;
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     padding-top: $unit;
   }
 
-  @include media($bp__lg) {
+  @include media($breaks-at-lg) {
     padding-top: 2 * $unit;
   }
 }

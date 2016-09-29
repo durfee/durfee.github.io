@@ -4,7 +4,7 @@
 .menu__container {
   z-index: 10;
   transition: 0.25s ease-in-out;
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     padding-right: $unit;  
   }
 }
@@ -23,7 +23,7 @@
       @extend %hotel;
       @extend %sans-serif-thin;
       text-align: center;
-      @include media($bp__md){
+      @include media($breaks-at-md){
         text-align: right;
       }
     }
@@ -36,7 +36,7 @@
 //   display: inline-block;
 //   margin: 1em 0 0 1em;
 //   float: left;
-//   color: $color__text !important;
+//   color: $color-text !important;
 
 //   .nav-icon {
 //     width: 35px;
@@ -52,7 +52,7 @@
 //       position: absolute;
 //       height: 6px;
 //       width: 100%;
-//       background: $color__overlay;
+//       background: $color-primary;
 //       left: 0;
 //       opacity: 1;
 //       transform: rotate(0deg);

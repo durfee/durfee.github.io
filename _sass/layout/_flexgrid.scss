@@ -23,11 +23,12 @@
 }
 
 // flex-column mixin. Declare $basis as percentage
+
 @mixin flex-column($basis) {
   // @extend %column;
   flex-basis: 100%;
   max-width: 100%;
-  @include media($bp__md) {
+  @include media($breaks-at-md) {
     flex-basis: $basis;
     max-width: $basis;  
   }
@@ -36,17 +37,16 @@
 // Horizontal alignment
 .start {
   justify-content: flex-start;
-  text-align: start;
+
 }
 
 .center {
   justify-content: center;
-  text-align: center;
+
 }
 
 .end {
   justify-content: flex-end;
-  text-align: end;
 }
 
 // Vertical alignment

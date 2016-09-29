@@ -9,12 +9,12 @@
   height: 100vh;
   margin-bottom: 2*$unit;
   padding-top: 2rem;
-  background-color: transparentize($color__grey--dark, 0.6);
+  background-color: transparentize($color-grey--dark, 0.6);
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
 
-  @include media($bp__nil) {
+  @include media($breaks-at-nil) {
     div:not(.custom) .full-width & {
       height: auto;
       background: none;
@@ -28,12 +28,12 @@
   .article-title {
     @extend %serif-display;
     @extend %delta;
-    color: $color__text;
+    color: $color-text;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 
-    @include media($bp__md) {
+    @include media($breaks-at-md) {
       max-width: none;
     }
   }
@@ -47,19 +47,19 @@
 
   h4 {
     @extend %body-serif;
-    // color: $color__text--white;
+    // color: $color-text--white;
   }
 
   h5 {
     @extend %body-serif;
-    // color: $color__text--white;
+    // color: $color-text--white;
     max-width: 80%;
     margin: 0 auto;
   }
 
   hr {
     @extend %hr-dotted;
-    // color: $color__text--white;  
+    // color: $color-text--white;  
   }
 }
 
@@ -72,7 +72,7 @@ article.full-width .article--content {
     line-height: 1.5em;
     padding: 0 $unit;
 
-    @include media($bp__md) {
+    @include media($breaks-at-md) {
     max-width: 38rem;
     }
   }
@@ -81,7 +81,7 @@ article.full-width .article--content {
   ul {
     padding-left: 40px;
     
-    @include media($bp__md) {
+    @include media($breaks-at-md) {
       max-width: 34rem;
       margin: 0 auto;
     }
@@ -114,7 +114,7 @@ article.full-width .article--content {
       margin: 1rem 0;
       padding: 0;
     }
-    @include media($bp__md) {
+    @include media($breaks-at-md) {
       max-width: 48rem;
       p {
         max-width: 48rem;
