@@ -622,28 +622,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/favicon-32x32.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3769,
-		"inputAbbreviatedPath": "\/assets\/favicon-32x32.png",
-		"outputAbbreviatedPath": "\/assets\/favicon-32x32.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3769,
-		"inputAbbreviatedPath": "\/assets\/favicon.png",
-		"outputAbbreviatedPath": "\/assets\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/javascripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,

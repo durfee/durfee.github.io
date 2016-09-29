@@ -2,7 +2,7 @@
 title: Reflections
 date: 2015-12-17 00:00:00 Z
 permalink: "/reflections"
-layout: 2-project
+layout: 4-post
 name: Reflections
 project-date: Fall 2015
 ---

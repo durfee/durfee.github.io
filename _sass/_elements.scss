@@ -41,19 +41,19 @@ li {
 }
 
 a {
-  color: $color__grey;
+  color: $color-grey;
   text-decoration: none;
-  border-bottom: 1px solid $color__grey;
+  border-bottom: 1px solid $color-grey;
    
   &:hover {
-    color: $color__overlay;
-    border-bottom: 1px solid $color__overlay;
+    color: $color-primary;
+    border-bottom: 1px solid $color-primary;
   }
 }
 
 blockquote {
-  color: $color__grey--light;
-  border-left: 4px solid $color__grey--dark;
+  color: $color-grey--light;
+  border-left: 4px solid $color-grey--dark;
   padding-left: 2 * $unit;
   font-size: 18px;
   letter-spacing: -1px;
@@ -67,7 +67,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $color__grey--light;
+  border: 1px solid $color-grey--light;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -94,7 +94,7 @@ pre {
     height: 16px;
     vertical-align: middle;
     path {
-      fill: $color__grey--light;
+      fill: $color-grey--light;
     }
   }
 }
@@ -103,7 +103,7 @@ hr {
   display: block;
   height: 1px;
   text-align: center;
-  border-color: $color__grey--light;
+  border-color: $color-grey--light;
   
 }
 
@@ -133,7 +133,7 @@ hr {
   @extend %sans-serif-thin;
   display: inline-block;
   padding: 0.75*$unit 1.5*$unit;
-  border: 1px solid $color__overlay;
+  border: 1px solid $color-primary;
   border-radius: 4px;
   text-transform: uppercase;
   text-decoration: none;
@@ -141,7 +141,7 @@ hr {
   &:focus,
   &:active {
     text-decoration: none;
-    background-color: $color__overlay;
-    color: $color__text--white !important;
+    background-color: $color-primary;
+    color: $color-text--white !important;
   }
 }
