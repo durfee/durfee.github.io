@@ -3,71 +3,104 @@
 // ========================================================================== */
 
 @import 'https://fonts.googleapis.com/css?family=Work+Sans:200,400,700';
-@import 'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic';
 @import 'https://fonts.googleapis.com/css?family=Alegreya:400,400i';
+
+
+/**
+ * Type scale and mixins
+ * map each heading = charlie through hotel.
+ * Also map / set wowza - hotel to silent classes for extends.
+ * 
+ * wowza              =   16 * 15     =  240
+ * super-duper-alpha  =   16 * 8      =  124
+ * super-alpha        =   16 * 6.667  =  106.67
+ * alpha              =   16 * 5.333  =  85.33
+ * bravo              =   16 * 4      =  64
+ * charlie            =   16 * 3.333  =  53.33
+ * delta              =   16 * 2.667  =  42.67
+ * echo               =   16 * 2      =  32
+ * foxtrot            =   16 * 1.667  =  26.67
+ * golf               =   16 * 1.333  =  21.33
+ * hotel              =   16 * 1      =  16
+ * */
+
+$type-scale: (
+  wowza: 240,
+  super-duper-alpha: 124,
+  super-alpha: 107,
+  alpha:    85,
+  bravo:    64,
+  charlie:  53,
+  delta:    43,
+  echo:     32,
+  foxtrot:  27,
+  golf:     21.33,
+  hotel:    16,
+  ) !default;
+
+$type-units: px;
+
+$type-scale--headings: (
+  h1: charlie,
+  h2: delta,
+  h3: echo,
+  h4: foxtrot,
+  h5: golf,
+  h6: hotel
+  ) !default;
+
 
 /**
  * Font weight silent classes
  **/
-%sans-serif {
+%f-sans-serif {
   font-family: $font-family--sans;
 }
 
-%sans-serif-thin {
-  @extend %sans-serif;
+%f-sans-serif-thin {
+  @extend %f-sans-serif;
   font-weight: 200;
 }
 
-%sans-serif-regular {
-  @extend %sans-serif;
+%f-sans-serif-regular {
+  @extend %f-sans-serif;
   font-weight: 400;
 }
 
-%sans-serif-bold {
-  @extend %sans-serif;
+%f-sans-serif-bold {
+  @extend %f-sans-serif;
   font-weight: 700;
 }
 
-%body-serif {
+%f-body-serif {
   font-family: $font-family--serif;
 }
 
-%body-serif-italic {
-  @extend %body-serif;
+%f-body-serif-italic {
+  @extend %f-body-serif;
   font-style: italic;
 }
 
-%serif-display {
+%f-serif-display {
   font-family: $font-family--display;
 }
 
-%serif-display-regular {
-  @extend %serif-display;
-  font-weight: 400;
+%f-serif-display-light {
+  @extend %f-serif-display;
+  font-style: normal;
+  font-weight: 300;
 }
 
-%serif-display-italic {
-  @extend %serif-display;
-  font-weight: 400;
-  font-style: italic;
+%f-serif-display-bold {
+  @extend %f-serif-display;
+  font-style: normal;
+  font-weight: 700;
 }
 
 html {
   font-family: $font-family--sans;
   color: $color-text;
   font-size: $font-size--base;
-
-  @include media($breaks-at-md) {
-    font-size: 1.1 * $font-size--base;
-  }
-
-  @include media($breaks-at-lg) {
-    font-size: 1.2 * $font-size--base;
-  }
-
-  @include media($breaks-at-xl) {
-    font-size: 1.3 * $font-size--base;
-  }
 }
 
 p,
@@ -79,11 +112,11 @@ li,
 dl,
 figure,
 %vertical-rhythm {
-  margin-bottom: 1.5em;
+  margin-bottom: $unit;
 }
 
 figcaption {
-  @extend %body-serif-italic;
+  @extend %f-body-serif-italic;
   font-size: $small-font-size;
   letter-spacing: 0.03em;
 }

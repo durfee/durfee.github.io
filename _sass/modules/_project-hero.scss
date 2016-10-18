@@ -15,16 +15,16 @@
   }
 
   .c-project--hero__name {
-    @extend %sans-serif-thin;
+    @extend %f-sans-serif-thin;
   }
 
   .c-project--hero__category {
-    @extend %serif-display-regular;
+    @extend %f-serif-display-light;
     @extend %bravo;
   }
 
   .c-project--hero__date {
-    @extend %sans-serif-thin;
+    @extend %f-sans-serif-thin;
     @extend %golf;
   }
 }

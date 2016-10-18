@@ -29,7 +29,7 @@
 }
 
 .c-home__masthead--title {
-  @extend %sans-serif-thin;
+  @extend %f-sans-serif-thin;
   @extend %delta;
   @extend %vertical-rhythm;
   padding: $unit 0 0;
@@ -42,7 +42,7 @@
 }
 
 .c-home__title {
-  @extend %sans-serif-thin;
+  @extend %f-sans-serif-thin;
   @extend %echo;
   color: $color-primary !important;
 }
@@ -67,5 +67,6 @@
 }
 
 .c-home__blog--item-title {
-  @extend %serif-display-italic;
+  @extend %f-serif-display-light;
+  font-style: italic;
 }

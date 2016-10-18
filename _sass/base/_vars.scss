@@ -4,7 +4,7 @@
 // ==========================================================================
 
 // Default units
-$unit:             1.5em;
+$unit:             1.125em;
 $spacing-unit:     3 * $unit;
 
 // Colors - Base >> Modified >> Location >> Text
@@ -42,9 +42,9 @@ $breaks-at-xl: map-get($breakpoints, xl);
 
 // Font styles
 $font-family--sans: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
-$font-family--display: 'Old Standard TT', 'Times New Roman', serif;
+$font-family--display: 'acta-display', serif;
 $font-family--serif: 'Alegreya', Georgia, serif;
-$font-size--base: 16px;
+$font-size--base: 18px;
 $font-weight--base: 400;
 $small-font-size: $font-size--base * 0.875;
 $base-line-height: $unit;

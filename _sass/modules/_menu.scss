@@ -11,18 +11,21 @@
 
 .menu__item {
   margin: 0;
-  padding: $unit 0 0;
+  padding: 0.5*$unit 0 0;
   list-style: none;
 
   a {
     border-bottom: none;
+
     &:hover {
       border-bottom: none;
     }
+
     h3 {
       @extend %hotel;
-      @extend %sans-serif-thin;
+      @extend %f-sans-serif-thin;
       text-align: center;
+
       @include media($breaks-at-md){
         text-align: right;
       }

@@ -6,14 +6,13 @@ layout: 0-default
   <div class="c-pane--primary">
     <div class="c-home__wrapper start">
       <div class="c-home__masthead--wrapper start middle flex-row">
-        <!-- <img class="x-logo center c-home__logo" src="{{ "/assets/logo.svg" | prepend: site.baseurl }}" alt="My logo. It says SD."> -->
         <h1 class="c-home__masthead--title">Sean Durfee</h1>
       </div>
       <div class="c-home__section--wrapper">
         <h1 class="c-home__title">About</h1>
-        <p class="c-home__copy">I'm Sean Durfee, a Vancouver, BC based multi-disciplinary designer. I'm a project manager, designer, front-end developer, and jack-of-all-trades with <a href="http://denimandsteel.com/">Denim and Steel</a>. I hold a degree in International Relations from the University of British Columbia with a focus in international security, East Asia, trade and languages (English, French & Italian with mild proficiency in Mandarin and Spanish). I'm a generalist designer that works across many disciplines – a fusionist, if you're feeling buzz-wordy.</p>
+        <p class="c-home__copy">Hi there! I'm Sean Durfee, a Vancouver, BC based multi-disciplinary designer. I'm a project manager, designer, front-end developer, and jack-of-all-trades with <a href="http://denimandsteel.com/">Denim and Steel</a>. I hold a degree in International Relations from the University of British Columbia with a focus in international security, East Asia, trade and languages (English, French & Italian with a smattering of Mandarin and Spanish). I'm a generalist designer that works across many disciplines – a fusionist, if you're feeling buzz-wordy.</p>
 
-        <p class="c-home__copy">On the side, I build community content for <a href="http://startup604.com">#Startup604</a>, lead product design for my company, <a href="http://chilly.tech">Chilly Technologies</a>, a swiss army knife, resident fire extinguisher and designer with the <a href="vancouverdesignwk.com">Vancouver Design Week</a> team. I like to keep busy.</p>
+        <p class="c-home__copy">On the side, I build community content for <a href="http://startup604.com">#Startup604</a>, lead product design for my company, <a href="http://chilly.tech">Chilly Technologies</a>, am a swiss army knife, resident fire extinguisher and designer with the <a href="http://vancouverdesignwk.com">Vancouver Design Week</a> team. I like to keep busy.</p>
 
         <p class="c-home__copy">A few of my past clients: <a href="http://annikaep.com">TRIBE</a>, <a href="http://greatdanecoffee.com">Great Dane Coffee</a>, <a href="http://theenvoy.ca/">The Envoy</a>, <a href="http://frindsmade.ca">Friends Made</a>, <a href="http://liu.arts.ubc.ca/">The University of British Columbia</a>, <a href="http://commissaryconnect.com/">Commissary Connect</a>, <a href="https://blogs.ubc.ca/irsa/">UBC's IRSA</a>, and more.</p>
 
@@ -23,12 +22,12 @@ layout: 0-default
       </div>
       <div class="c-home__section--wrapper">
         <h1 class="c-home__title">Writing</h1>
-        <p class="c-home__copy">I sometimes write things. It usually isn't good.</p>
+        <p class="c-home__copy">I occasionally write things. It usually isn't good.</p>
         <ul class="c-home__blog--list">
           {% for post in site.posts %} 
             <a href="{{ post.url }}">
               <li class="c-home__blog--item">
-              <span class="c-home__blog--item-date">{{ post.date | date: '%Y, %B' }}</span> — <span class="c-home__blog--item-title">{{ post.title }}</span></li>
+              <span class="c-home__blog--item-title">{{ post.title }}</span></li>
             </a>
           {% endfor %}
         </ul>

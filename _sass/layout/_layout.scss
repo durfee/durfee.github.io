@@ -28,7 +28,7 @@
 .o-header {
   display: block;
   position: relative;
-  background-color: white;
+
 
   @include media($breaks-at-md) {
     position: fixed;

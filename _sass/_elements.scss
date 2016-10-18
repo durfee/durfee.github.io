@@ -130,7 +130,7 @@ hr {
 }
 
 .btn {
-  @extend %sans-serif-thin;
+  @extend %f-sans-serif-thin;
   display: inline-block;
   padding: 0.75*$unit 1.5*$unit;
   border: 1px solid $color-primary;

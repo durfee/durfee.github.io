@@ -26,7 +26,7 @@
   }
 
   .article-title {
-    @extend %serif-display;
+    @extend %f-serif-display;
     @extend %delta;
     color: $color-text;
     max-width: 300px;
@@ -46,12 +46,12 @@
   }
 
   h4 {
-    @extend %body-serif;
+    @extend %f-body-serif;
     // color: $color-text--white;
   }
 
   h5 {
-    @extend %body-serif;
+    @extend %f-body-serif;
     // color: $color-text--white;
     max-width: 80%;
     margin: 0 auto;

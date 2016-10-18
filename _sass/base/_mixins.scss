@@ -11,8 +11,9 @@
 
 // Include any omni-heading styles here.
 @mixin heading-styles() {
-  @extend %sans-serif-thin;
-  line-height: 1; /* Eliminate whitespace for split headers. */
+  @extend %f-sans-serif-thin;
+  line-height: 1.15;
+  margin: 0.25rem 0 0.75rem;
 }
 // Hard and silent classes for all headings.
 @mixin heading-classes() {
