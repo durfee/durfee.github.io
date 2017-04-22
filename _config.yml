@@ -1,40 +1,34 @@
 ---
 title: Sean Durfee
 timezone: UTC
+
 collections:
   pages:
     title: Pages
     output: true
-  photos:
-    title: Photos
-    output: true
-    permalink: "/pictures/:path/"
   posts:
     title: Posts
     output: true
   projects:
     title: Projects
     output: true
-    permalink: "/projects/:path/"
   uploads:
     title: Uploads
     output: true
-  videos:
-    title: Videos
-    output: true
 email: sean@durfee.me
-description: 'I''m a multi-disciplinary designer based in Vancouver, BC., working
-  at Denim and Steel. I  specialize in web, UI, product design, identities, branding,
-  and  photography. Say hi? (pleez)
-
-'
+description: > 
+  Sean Durfee is a multi-disciplinary designer,
+  front-end developer and project manager
+  based out of Vancouver, British Columbia.
 baseurl: 
-url: durfee.github.com/ps_update
+url: durfee.me
 twitter_username: durfeee
 github_username: durfee
 markdown: kramdown
 gems:
+- jekyll-assets
 - jekyll-coffeescript
 - jekyll-watch
-- jekyll-assets
 - autoprefixer-rails
+assets:
+  digest: true

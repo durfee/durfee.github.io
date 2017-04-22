@@ -1,0 +1,30 @@
+// settings/mixins.scss
+// ===
+// 
+
+// Bounded
+// ---
+
+@mixin --sm-only {
+    @media screen and (max-width: $content-area-narrow) { @content; }
+}
+
+@mixin --md-only {
+    @media screen and (min-width: $content-area-narrow) and (max-width: $content-area-md) { @content; }
+}
+
+
+// Responsive
+// ---
+
+@mixin --sm-up {
+    @media screen and (min-width: $content-area-narrow) { @content; }
+}
+
+@mixin --md-up {
+    @media screen and (min-width: $content-area-md) { @content; }
+}
+
+@mixin --lg-up {
+    @media screen and (min-width: $content-area-wide) { @content; }
+}
