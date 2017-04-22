@@ -26,7 +26,7 @@ twitter_username: durfeee
 github_username: durfee
 markdown: kramdown
 gems:
-- jekyll-assets
+# - jekyll-assets
 - jekyll-coffeescript
 - jekyll-watch
 - autoprefixer-rails
