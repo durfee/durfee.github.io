@@ -1,0 +1,23 @@
+// _settings/_variables.scss
+// ===
+// 
+$color-black: #1e131e;
+$color-ghost: #fcfaf5;
+$color-raspberry: #e65062;
+
+
+$font-stack-sans: 'freight-sans-pro', sans-serif;
+$font-stack-serif: 'freight-text-pro', serif;
+$font-size-base: 1rem;
+$line-height-base: 1.3;
+
+$unit: $font-size-base;
+
+$content-area-narrow: $unit*30;
+$content-area-medium: $unit*50;
+$content-area-wide: $unit*70;
+
+
+$measure-small: $content-area-narrow / 2;
+$measure-medium: $content-area-narrow;
+$measure-total: $measure-small + $measure-medium;
