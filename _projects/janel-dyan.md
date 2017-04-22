@@ -16,11 +16,11 @@ introduction: >
 
 ---
 
-![Janel Dyan Homepage web design](./jd/jd-brand-desktop-1.png)
-![Janel Dyan blog web design](./jd/jd-brand-desktop-2.png)
-![Janel Dyan post web design](./jd/jd-brand-desktop-3.png)
-![Janel Dyan web app products listing page design](./jd/jd-app-plp.png)
-![Janel Dyan web app product display page design](./jd/jd-app-pdp.png)
-![Janel Dyan re-brand logo design](./jd/jd-brand-logo.png)
-![Janel Dyan re-brand color palette design](./jd/jd-brand-color.png)
-![Janel Dyan full re-brand designs](./jd/jd-brand-all.png)
+![Janel Dyan Homepage web design](./jd/JD-brand-desktop-1.png)
+![Janel Dyan blog web design](./jd/JD-brand-desktop-2.png)
+![Janel Dyan post web design](./jd/JD-brand-desktop-3.png)
+![Janel Dyan web app products listing page design](./jd/JD-app-plp.png)
+![Janel Dyan web app product display page design](./jd/JD-app-pdp.png)
+![Janel Dyan re-brand logo design](./jd/JD-brand-logo.png)
+![Janel Dyan re-brand color palette design](./jd/JD-brand-color.png)
+![Janel Dyan full re-brand designs](./jd/JD-brand-all.png)
