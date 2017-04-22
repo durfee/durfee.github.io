@@ -15,18 +15,10 @@ collections:
     title: Uploads
     output: true
 email: sean@durfee.me
-<<<<<<< HEAD
 description: > 
   Sean Durfee is a multi-disciplinary designer,
   front-end developer and project manager
   based out of Vancouver, British Columbia.
-=======
-description: 'I''m a multi-disciplinary designer based in Vancouver, BC., working
-  at Denim and Steel. I  specialize in web, UI, product design, identities, branding,
-  and  photography. Say hi? (pleez)
-
-'
->>>>>>> gh-pages
 baseurl: 
 url: durfee.me
 twitter_username: durfeee
