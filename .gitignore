@@ -5,5 +5,6 @@ _site
 .jekyll-metadata
 
 # Codekit bloat
+.asset-cache
 .sass-cache
 config.codekit
