@@ -1,6 +1,8 @@
 ---
 title: Sean Durfee
 timezone: UTC
+assets:
+  digest: true
 collections:
   pages:
     title: Pages
