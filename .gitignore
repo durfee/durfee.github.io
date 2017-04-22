@@ -6,4 +6,5 @@ _site
 
 # Codekit bloat
 .sass-cache
+.asset-cache
 config.codekit

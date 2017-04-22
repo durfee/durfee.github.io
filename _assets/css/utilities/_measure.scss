@@ -1,0 +1,37 @@
+// utilities/_measure.scss
+// ===
+// 
+
+.u-measure--small {
+  max-width: $measure-small;
+}
+
+.u-measure {
+  max-width: $measure-medium;
+}
+
+.u-measure--large {
+  max-width: $measure-total;
+}
+
+.u-measure--vlarge {
+  max-width: $content-area-wide;
+}
+
+// Measure
+.measure-small {
+  flex: 1;
+  max-width: $measure-small;
+}
+
+.measure-large {
+  flex: 1;
+  max-width: $measure-medium;
+  p {
+    margin-top: 0;
+  }
+}
+
+.measure-outer {
+  max-width: $measure-total;
+}

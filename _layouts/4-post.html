@@ -2,15 +2,9 @@
 layout: 0-default
 ---
 
-  <div class="{{ page.class }} flex-row">
-    <article class="full-width">
-      <div class="article--hero center middle flex-row" style="background-image: url({{ page.image }})">
-        <div class="article--hero__copy">
-          <h3 class="article-title">{{ page.name }}</h3>
-        </div>
-      </div>
-      <div class="article--content">
-        {{ content }}
-      </div>
-    </article>
+  <div class="mx-a measure-outer mt-6 px-half">
+    <div class="flexbox mb-1">
+      <div class="measure-small"><h1 class="emphasis italic color-pink">{{ project.title }}</h1></div>
+      <div class="measure-large"></div>
+    </div>
   </div>

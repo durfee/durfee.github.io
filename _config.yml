@@ -5,22 +5,14 @@ collections:
   pages:
     title: Pages
     output: true
-  photos:
-    title: Photos
-    output: true
-    permalink: "/pictures/:path/"
   posts:
     title: Posts
     output: true
   projects:
     title: Projects
     output: true
-    permalink: "/projects/:path/"
   uploads:
     title: Uploads
-    output: true
-  videos:
-    title: Videos
     output: true
 email: sean@durfee.me
 description: > 

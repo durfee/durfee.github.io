@@ -2,26 +2,24 @@
 layout: 0-default
 ---
 
-  <div class="{{ page.super-class }} article {{ page.class }} flex-row">
-    <article class="full-width">
-      <div class="article--hero center middle flex-row" style="background-image: url({{ page.image }})">
-        <div class="article--hero__copy">
-          <h5 class="sc">{{ page.project-date }}</h5>
-          <hr>
-          <h3 class="article-title">{{ page.name }}</h3>
-          <h4 class="sc">{{ page.type }}</h4>
-          <hr>
-          <h5 class="sc">{{ page.summary }}</h5>
+  <div class="mx-a measure-outer mt-6 px-half">
+    <div class="flexbox mb-1">
+      <div class="measure-small">
+        <h1 class="emphasis color-pink">{{ page.title }}</h1>
+        <div class="mt-2">
+          <ul>
+            {% for category in page.categories %}
+            <li class="italic">{{ category }}</li>
+            {% endfor %}
+          </ul>
         </div>
-        <!-- <img src="{{ "/assets/logo.svg" | prepend: site.baseurl }}" alt="My logo. It says SD." class="article-logo"> -->
       </div>
-<!--       <div class="article--meta">
-        <div class="article--meta__item">Project type: {{ page.type }}</div>
-        <div class="article--meta__item">Project dates: {{ page.project-date }}</div>
-      </div> -->
-      <div class="article--content">
-        {{ content }}
+      <div class="measure-large u-text-leadin">
+        {{ page.introduction | markdownify }}
       </div>
-    </article>
-    {% include footer.html %}
+    </div>
+  </div>
+  <div class="mt-2 mx-a c-content">
+    <hr>
+    {{ content }}
   </div>
