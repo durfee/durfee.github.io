@@ -2,10 +2,6 @@
 // ===
 // 
 
-.u-text-size-small {
-
-}
-
 .u-text-size-base {
   @extend %font-size-base;
 }
@@ -23,6 +19,10 @@
 }
 .u-text-size-5 {
   @extend %font-size-5;
+}
+
+.u-text-size-bloody-enormous {
+  font-size: 5rem;
 }
 
 .u-text-leadin {
