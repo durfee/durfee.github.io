@@ -195,6 +195,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/08\/08HW4z2pAT-TkdBX4QQzOgXz644z2ZPVAdRuIi9lhS4.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/0c\/0cPolJJ2LCO50m8mEQo0BRR_epJ8eFXeqlv4f7-uc3c.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/0c\/0cPolJJ2LCO50m8mEQo0BRR_epJ8eFXeqlv4f7-uc3c.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/0g\/0ggas2J18ibnEezo5vXEgUrZp-wmwavxdgq5VaZOuOE.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -475,6 +481,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/3-\/3-cHwhJbjiJoA5E1YbvTK0EQB57bnIRkTZ-V9nuWJPo.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/3-\/3-XCj070Csm6KbdPbdewOxtpcN2r7aYzILfnX-mKWQg.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/3-\/3-XCj070Csm6KbdPbdewOxtpcN2r7aYzILfnX-mKWQg.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/33\/33-hEqXcVgFbtzsuvEAlHzzZA8Jin955ANyERp0Wr2w.cache": {
@@ -1365,6 +1377,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/a3\/a3DE_P4DtIu-yGiUAsUiY11t8vUXnZvRusy4CEcUsJU.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/A5\/A5DsHbkZEViksjHDh3N8bskgeY1ipq4f66CTsN-aA80.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/A5\/A5DsHbkZEViksjHDh3N8bskgeY1ipq4f66CTsN-aA80.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/a8\/a8EegEBL4-KlayZV-aAQuLRstb-TrIeWDcvBFqkPbRg.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -2097,6 +2115,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/dq\/dq5t7rb1ZAThFYDFvZgSTWBpyfThWFowdYwWDxEtQM0.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/dq\/dQzsmgtBqTbB-Aa1n5pfMuY0ktQfYlROYGHx_dgDuSI.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/dq\/dQzsmgtBqTbB-Aa1n5pfMuY0ktQfYlROYGHx_dgDuSI.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/ds\/dsQGRBPNPKfaUvtm5e6wKyckl8duNCrxWykWi8ATTLI.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -2247,6 +2271,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/EF\/EF-T0Cv4biQRxI6pGEdV1PSIdI4eTo9Un2jboIckdYQ.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/EF\/Efv0yoVvVMweKw_RQ-a28CntrLVgSsrh7EmUqJU8zPo.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/EF\/Efv0yoVvVMweKw_RQ-a28CntrLVgSsrh7EmUqJU8zPo.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/eG\/eGr1gV0lAV7EGYWj7-fmhFOPZWELBFFo_QVz5Xo3Rxw.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -2319,15 +2349,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/eS\/eSCKrfSaAX5uYjxbWyX3E5OLamfzNvuRU7Ng9ty5kSY.cache",
 		"oF": 0
 		},
-<<<<<<< HEAD
 	"\/.asset-cache\/sprockets\/v3.0\/eS\/eSQscWPpKHzGd_sJGEbNCgSRE93oXdENzffl6WkQPGs.cache": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/eS\/eSQscWPpKHzGd_sJGEbNCgSRE93oXdENzffl6WkQPGs.cache",
 		"oF": 0
 		},
-=======
->>>>>>> 2ab15bee5b54b9c69f3d0955a685cfeba0e7e35c
 	"\/.asset-cache\/sprockets\/v3.0\/Et\/Et20hmwOBGOcr3MvV3EF3s-HdqkRmH61-b1P7I69yDU.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -3078,6 +3105,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/Hr\/Hr6yE8Ih2SDgsIsRzkTIqrzybQTD7VaL-_MPqL1hveU.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/Hr\/hrQ_zwPZeWnq0US39JHyqxrkoosRu2wydSCUtqVUtWA.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/Hr\/hrQ_zwPZeWnq0US39JHyqxrkoosRu2wydSCUtqVUtWA.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/Ht\/HtGKAnWCNsGfm37vifGyuahWgILketKJIyTbNWQVlf8.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -3118,6 +3151,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/HW\/HW-b5isLdiU-M-C02YDTGzig5CDElupKpeobdF4uRFA.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/HW\/hWxQQ6B0blt0wcB1i1ITdaEhWH8uyH6gsYLP48Iwz4I.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/HW\/hWxQQ6B0blt0wcB1i1ITdaEhWH8uyH6gsYLP48Iwz4I.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/HY\/HyBiKgaDbQqJzblioEYAEkRzKoPsGALWpccPGPRp0F4.cache": {
@@ -3448,6 +3487,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/jh\/jh1JyKhmXwKQ97dkqfS5nimva6-zV1REIejoKHrnw10.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/jh\/jHGwBjJcUAwzwIBw8wxsfX5stbcROQsOCM9MoSqLTgk.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/jh\/jHGwBjJcUAwzwIBw8wxsfX5stbcROQsOCM9MoSqLTgk.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/JJ\/JJOhqHSwDmnQh_Dl4X_kRFMlgZMW_Xakt-K-rNHwkHo.cache": {
@@ -4842,6 +4887,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/py\/pyTPme70e8CDv7shY-gQU7jrTB1sFxFec6LKZRV_IEU.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/PZ\/pzQuBOHKCsYHc9M2aKP2ORSLYXEW4Hg_eVhs7qeNjjI.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/PZ\/pzQuBOHKCsYHc9M2aKP2ORSLYXEW4Hg_eVhs7qeNjjI.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/PZ\/PZreBkGwzVnkkCe7QNFjpLpd_53VXyZlW72Ej7njtGc.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -5362,6 +5413,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/Rx\/Rx-sGT0hS8Z3sRaPd6GtSFcM9gHTgLlIqkearHN5Vdo.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/Rx\/Rx8NuHYyXTDCQ9SB1ueZUcaEdzQ5u_sQB7cYFRdXsnU.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/Rx\/Rx8NuHYyXTDCQ9SB1ueZUcaEdzQ5u_sQB7cYFRdXsnU.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/ry\/ryI9CYL2rH8g3LuVJtXhUKedEoNXr_VSRX5yHGScMIQ.cache": {
@@ -6432,6 +6489,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/xO\/xoEtjV8MQgWkgz4GiAYO0rxQ-UJN9ydUTeUvVZ2OGjQ.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/xO\/XOnlQLnHNYnB2J23_sgm6llJJbv9DCd2fz8K-KCUbfg.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/xO\/XOnlQLnHNYnB2J23_sgm6llJJbv9DCd2fz8K-KCUbfg.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/xO\/xOyRFKJkTP5JM4NYYwJ0HZveixYyoirFEKOHz6YdKr4.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -6462,6 +6525,12 @@
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/xU\/xUE4O0upRH9uSCRkjperWnrYJMa9lmxqXrPHR73IzUo.cache",
 		"oF": 0
 		},
+	"\/.asset-cache\/sprockets\/v3.0\/xV\/xVv9xNuS6ewBa1MWTv8ld9KvHcTz1EaPAz6K8RtKePE.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/xV\/xVv9xNuS6ewBa1MWTv8ld9KvHcTz1EaPAz6K8RtKePE.cache",
+		"oF": 0
+		},
 	"\/.asset-cache\/sprockets\/v3.0\/xx\/xx7Sbeh5oHclxJRrICiNbOo80wrMOIuao4F7loALCd4.cache": {
 		"ft": 8192,
 		"oA": 2,
@@ -6490,6 +6559,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/y5\/y54fd5a1tBGz0L0NJGT18f6lwB1Ox2HFmqXoZaWpwnQ.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/y6\/y6zlUQNgkBCJVpefr5NE9fXtbJREYCxOkvRIjBvYGAE.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/y6\/y6zlUQNgkBCJVpefr5NE9fXtbJREYCxOkvRIjBvYGAE.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/ya\/ya6Mmi3YO9pTRQkfjw5Pk7cv9WyZvwtnbaaunmCFqzI.cache": {
@@ -6652,6 +6727,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.asset-cache\/sprockets\/v3.0\/YV\/YVYfGvGI0sytNH8342sO1mE18jn_HXCU8MjOOSAVOrU.cache",
+		"oF": 0
+		},
+	"\/.asset-cache\/sprockets\/v3.0\/yX\/Yx-w4bK1pQPHReXnlIyTrXlXGlLENQhlYT9Y_sFUMYM.cache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.asset-cache\/sprockets\/v3.0\/yX\/Yx-w4bK1pQPHReXnlIyTrXlXGlLENQhlYT9Y_sFUMYM.cache",
 		"oF": 0
 		},
 	"\/.asset-cache\/sprockets\/v3.0\/yX\/yXt4aX15BGCIOijZ-2gIQ90T0EDWiSC3o8aJ87ivt1A.cache": {
@@ -7176,279 +7257,6 @@
 		"oAP": "\/.sass-cache\/f92964d6d6f604cc7f1b1449c77a58d7ea5f0a37\/_social.scssc",
 		"oF": 0
 		},
-	"\/_assets\/css\/base\/_general.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_general.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/base\/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/base\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/components\/_content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/components\/_project-grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_project-grid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_assets\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/_assets\/css\/main.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_assets\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/_assets\/css\/main.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_assets\/css\/main.css",
-		"oF": 0,
-		"oS": 2,
-		"uL": 1
-		},
-	"\/_assets\/css\/settings\/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/settings\/_type-scale.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_type-scale.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/settings\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_appearance.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_appearance.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_color.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_color.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_display.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_display.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_measure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_measure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_spacing.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_spacing.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/css\/utilities\/_text.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_assets\/css\/css\/_text.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_assets\/images\/blanc-ink-cover.png": {
-		"ft": 32768,
-		"iS": 51470,
-		"oA": 0,
-		"oAP": "\/_assets\/images\/blanc-ink-cover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_assets\/images\/janel-dyan-cover.png": {
-		"ft": 32768,
-		"iS": 29713,
-		"oA": 0,
-		"oAP": "\/_assets\/images\/janel-dyan-cover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_assets\/images\/line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_assets\/images\/line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_assets\/images\/scaffoldhub-cover.png": {
-		"ft": 32768,
-		"iS": 85424,
-		"oA": 0,
-		"oAP": "\/_assets\/images\/scaffoldhub-cover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_assets\/javascripts\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_assets\/javascripts\/min\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_assets\/javascripts\/turbolinks.coffee": {
-		"ft": 32,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_assets\/javascripts\/turbolinks.js",
-		"oF": 0,
-		"oS": 0,
-		"sC": 1
-		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
@@ -7912,13 +7720,21 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_site\/assets\/.sprockets-manifest-6446df1d33dca38a2341453bae38a40b.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/.sprockets-manifest-6446df1d33dca38a2341453bae38a40b-min.json",
+	"\/_site\/assets\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/main-min.css",
 		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oS": 0
+		},
+	"\/_site\/assets\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/css\/main.css.map",
+		"oF": 0
 		},
 	"\/_site\/assets\/css\/main.scss": {
 		"aP": 0,
@@ -7933,39 +7749,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/assets\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 3769,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicon.png": {
-		"ft": 32768,
-		"iS": 3769,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/images\/Artboard 2@2x.png": {
-		"ft": 32768,
-		"iS": 29713,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/images\/Artboard 2@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/_site\/assets\/images\/blanc-ink-cover.png": {
 		"ft": 32768,
 		"iS": 51470,
@@ -7975,16 +7758,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/images\/cc-test.jpg": {
-		"ft": 16384,
-		"iS": 451437,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/images\/cc-test.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/_site\/assets\/images\/janel-dyan-cover.png": {
@@ -8023,16 +7796,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/javascripts\/min\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/javascripts\/min\/turbolinks-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/javascripts\/min\/min\/turbolinks-min-min.js",
+		"oAP": "\/_site\/assets\/javascripts\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -8041,40 +7805,10 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/javascripts\/min\/turbolinks-min.js",
+		"oAP": "\/_site\/assets\/javascripts\/turbolinks-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/assets\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/main-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/main-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/_site\/assets\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/main-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/CNAME": {
 		"ft": 8192,
@@ -8126,6 +7860,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/fonts\/icomoon.woff",
+		"oF": 0
+		},
+	"\/_site\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -8373,6 +8119,279 @@
 		"oAP": "\/_site\/reflections.html",
 		"oF": 0
 		},
+	"\/assets\/css\/base\/_general.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/base\/_general.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/base\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/base\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/base\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/base\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/_content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/components\/_content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/_project-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/components\/_project-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/assets\/css\/main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/settings\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/settings\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/settings\/_type-scale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/settings\/_type-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/settings\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/settings\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_appearance.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_appearance.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_display.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_display.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_measure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_measure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_spacing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_spacing.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/images\/blanc-ink-cover.png": {
+		"ft": 32768,
+		"iS": 51470,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blanc-ink-cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/janel-dyan-cover.png": {
+		"ft": 32768,
+		"iS": 29713,
+		"oA": 0,
+		"oAP": "\/assets\/images\/janel-dyan-cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/line.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/scaffoldhub-cover.png": {
+		"ft": 32768,
+		"iS": 85424,
+		"oA": 0,
+		"oAP": "\/assets\/images\/scaffoldhub-cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascripts\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascripts\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascripts\/turbolinks.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascripts\/turbolinks.js",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -8413,6 +8432,18 @@
 		"oAP": "\/fonts\/icomoon.woff",
 		"oF": 0
 		},
+	"\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Gemfile",
+		"oF": 0
+		},
+	"\/Gemfile.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -8432,7 +8463,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -9786,7 +9817,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:4000",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -10200,7 +10231,7 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -10220,8 +10251,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -10231,8 +10262,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -10244,7 +10275,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 1,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -10256,7 +10287,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
-		"outputFormat": 9,
+		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
@@ -10297,7 +10328,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -10325,7 +10356,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -10349,7 +10380,7 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
@@ -10490,7 +10521,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
