@@ -22,6 +22,10 @@
   margin-bottom: $unit;
 }
 
+.mb-2 {
+  margin-bottom: $unit * 2;
+}
+
 .mx-a {
   margin-left: auto;
   margin-right: auto;

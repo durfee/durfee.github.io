@@ -1,5 +1,5 @@
 ---
-title: Vancouver Design Week
+title: VDW
 name: Vancouver Design Week
 layout: 2-project
 categories: Web, Editorial, Ad

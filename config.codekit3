@@ -7720,6 +7720,68 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_projects\/vdw.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_projects\/vdw.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_projects\/vdw\/vdw-print-1.png": {
+		"ft": 32768,
+		"iS": 772013,
+		"oA": 0,
+		"oAP": "\/_projects\/vdw\/vdw-print-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_projects\/vdw\/vdw-print-2.png": {
+		"ft": 32768,
+		"iS": 2528517,
+		"oA": 0,
+		"oAP": "\/_projects\/vdw\/vdw-print-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_projects\/vdw\/vdw-web-1.png": {
+		"ft": 32768,
+		"iS": 396983,
+		"oA": 0,
+		"oAP": "\/_projects\/vdw\/vdw-web-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_projects\/vdw\/vdw-web-2.png": {
+		"ft": 32768,
+		"iS": 645244,
+		"oA": 0,
+		"oAP": "\/_projects\/vdw\/vdw-web-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/assets\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -8065,7 +8127,7 @@
 		},
 	"\/_site\/projects\/pemberton\/plany-brand.png": {
 		"ft": 32768,
-		"iS": 261230,
+		"iS": 291649,
 		"oA": 0,
 		"oAP": "\/_site\/projects\/pemberton\/plany-brand.png",
 		"oF": 0,
@@ -8076,7 +8138,7 @@
 		},
 	"\/_site\/projects\/pemberton\/plany-home.png": {
 		"ft": 32768,
-		"iS": 233995,
+		"iS": 227113,
 		"oA": 0,
 		"oAP": "\/_site\/projects\/pemberton\/plany-home.png",
 		"oF": 0,
@@ -8087,7 +8149,7 @@
 		},
 	"\/_site\/projects\/pemberton\/plany-pdp.png": {
 		"ft": 32768,
-		"iS": 267185,
+		"iS": 252124,
 		"oA": 0,
 		"oAP": "\/_site\/projects\/pemberton\/plany-pdp.png",
 		"oF": 0,
@@ -8098,7 +8160,7 @@
 		},
 	"\/_site\/projects\/pemberton\/plany-plp.png": {
 		"ft": 32768,
-		"iS": 215370,
+		"iS": 218010,
 		"oA": 0,
 		"oAP": "\/_site\/projects\/pemberton\/plany-plp.png",
 		"oF": 0,
@@ -8112,6 +8174,56 @@
 		"oA": 2,
 		"oAP": "\/_site\/projects\/PLAN-Y.html",
 		"oF": 0
+		},
+	"\/_site\/projects\/vdw.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/projects\/vdw.html",
+		"oF": 0
+		},
+	"\/_site\/projects\/vdw\/vdw-print-1.png": {
+		"ft": 32768,
+		"iS": 772013,
+		"oA": 0,
+		"oAP": "\/_site\/projects\/vdw\/vdw-print-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/projects\/vdw\/vdw-print-2.png": {
+		"ft": 32768,
+		"iS": 2528517,
+		"oA": 0,
+		"oAP": "\/_site\/projects\/vdw\/vdw-print-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/projects\/vdw\/vdw-web-1.png": {
+		"ft": 32768,
+		"iS": 396983,
+		"oA": 0,
+		"oAP": "\/_site\/projects\/vdw\/vdw-web-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/projects\/vdw\/vdw-web-2.png": {
+		"ft": 32768,
+		"iS": 645244,
+		"oA": 0,
+		"oAP": "\/_site\/projects\/vdw\/vdw-web-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/reflections.html": {
 		"ft": 8192,
