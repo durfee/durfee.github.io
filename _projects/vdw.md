@@ -13,3 +13,6 @@ introduction: >
 ![Vancouver Design Week Website design 2](./vdw/vdw-web-2.png)
 ![Vancouver Design Week Print Ad design](./vdw/vdw-print-1.png)
 ![Vancouver Design Week Print Ad press invitation](./vdw/vdw-print-2.png)
+![Vancouver Design Week Print Poster](./vdw/vdw-print-3.png)
+![Vancouver Design Week Print Ad Georgia Straight](./vdw/vdw-print-4.png)
+![Vancouver Design Week Print Ad Postcard](./vdw/vdw-print-5.png)
