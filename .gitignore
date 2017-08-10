@@ -1,5 +1,4 @@
-# The site build
-_site
+node_modules
 
 # Extra meta data
 .jekyll-metadata

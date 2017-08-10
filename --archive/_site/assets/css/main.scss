@@ -1,0 +1,136 @@
+/* ==========================================================================
+   main.scss –– Primary stylesheet
+   ========================================================================== */
+/**
+  * Home to imports, charset, and site wide mixins.
+ **/
+@import 'settings/variables';
+@import 'settings/mixins';
+@import 'settings/type-scale';
+
+@import 'base/normalize';
+@import 'base/general';
+@import 'base/typography';
+
+@import 'utilities/measure';
+@import 'utilities/spacing';
+@import 'utilities/text';
+
+@import 'components/project-grid';
+@import 'components/content';
+
+// classes
+// ---
+
+// Color
+.color-black {
+  color: $color-black;
+}
+
+.color-pink {
+  color: $color-raspberry;
+}
+
+.bg-ghost {
+  background-color: $color-ghost;
+}
+
+// Type
+.italic {
+  font-style: italic;
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.align-right {
+  @media screen and (min-width: 600px) {
+    text-align: right;
+  }
+}
+
+.align-left {
+  text-align: left;
+}
+
+.no-link-decoration {
+  border: 0;
+}
+
+
+
+// Display
+.flexbox {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.w100 {
+  width: 100%;
+
+  &--sm-only {
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
+
+.w50 {
+  width: 50%;
+  &--sm-up {
+    @media screen and (min-width: 600px) {
+      width: 50%;
+    }
+  }
+}
+
+.image-cover {
+  object-fit: cover;
+}
+
+
+
+// Position
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.pos-center {
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.pos-b-0 {
+  bottom: 0;
+}
+
