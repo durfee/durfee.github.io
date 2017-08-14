@@ -1,5 +1,5 @@
 ---
-title: Self-Indulgence
+title: Indulgence
 name: Self-Indulgence
 layout: 2-project
 cover_image: blanc-ink-cover.png

@@ -1,10 +1,10 @@
-# The site build
-_site
 
-# Extra meta data
+_site
+node_modules
+archive
+
 .jekyll-metadata
 
-# Codekit bloat
 .asset-cache
 .sass-cache
 .asset-cache

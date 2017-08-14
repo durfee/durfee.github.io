@@ -6,7 +6,7 @@ cover_image: plan-y-cover.png
 categories: Web, Branding
 introduction: >
     PLAN-Y.ca (_Pemberton_, _Lil'Wat Nation &amp; Lower Lakes_, _Area C, N'Quatqua_, for _Youth_) is an arm of the Pemberton Valley Local Action Team (LAT). In conjunction with the Child and Youth Mental Health and Substance Use (CYMHSU) Collaborative, they had a goal to improve youth access to mental health services.<br/><br/>
-    In 2016, the Pemberton Valley LAT approached [Denim &amp; Steel](http://denimandsteel.com) to design and develop a youth services directory web app for the region. Privacy in a small tight-knit community, spotty internet access, and a diverse demographic presented interesting challanges to work with. As the primary developer, web and visal designer I helped deliver an inclusive and comprehensive solution.<br/><br/>
+    In 2016, the Pemberton Valley LAT approached [Denim &amp; Steel](http://denimandsteel.com) to design and develop a youth services directory web app for the region. Privacy in a small tight-knit community, unreliable internet access, and a diverse demographic presented interesting challenges to work with. As the primary developer, web and visual designer I helped deliver an inclusive and comprehensive solution.<br/><br/>
     [Visit the site](http://plany.ca).<br/><br/>
 
     - _UX &amp; Creative Director:_ Todd Sieling

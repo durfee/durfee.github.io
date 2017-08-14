@@ -4,7 +4,7 @@ name: Vancouver Design Week
 layout: 2-project
 categories: Web, Editorial, Ad
 introduction: >
-    Vancouver Design Week is a non-profit social enterprise with the mission to promote and celebrate designers of all disciplines in Vancouver. I joined the organizing team initally as a part of the web team. As we neared towards launching our 2017 event, I jumped around branding, print design, social media and coordination, where needed.<br/><br/>
+    Vancouver Design Week is a non-profit social enterprise with the mission to promote and celebrate designers of all disciplines in Vancouver. I joined the organizing team initially as a part of the web team. As we neared towards launching our 2017 event, I jumped around branding, print design, social media and coordination, where needed.<br/><br/>
     [Visit the site](//vancouverdesignwk.com)<br/><br/>
     [Full team here](//vancouverdesignwk.com/#team)
 ---
